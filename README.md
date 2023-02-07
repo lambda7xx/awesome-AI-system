@@ -4,8 +4,8 @@
 
 - [Papers](#papers)
   - [Training](#training)
-  - [Schedule](#schedule)
   - [Serving](#Serving)
+  - [Schedule](#schedule)
   - [Optimization](#optimzation)
 - [Contribute](#contribute)
 
