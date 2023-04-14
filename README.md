@@ -113,7 +113,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts](https://github.com/stanford-futuredata/megablocks) MLSYS'23 
 - [Tutel: Adaptive Mixture-of-Experts at Scale](https://github.com/MachineLearningSystem/tutel-MOE) MLSYS'23
 
-- [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe-thu) PPOPP'23
+- [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe-thu) PPOPP'22
 
 - [awesome MoE](https://github.com/MachineLearningSystem/awesome-mixture-of-experts)
 
