@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Paper && Code](#paper)
+- [Papers](#paper)
   - [Training](#training)
   - [Serving](#Serving)
   - [MoE](#MoE)
@@ -11,7 +11,7 @@
   - [GNN](#GNN)
 - [Contribute](#contribute)
 
-## Paper && Code
+## Papers
 
 ### Training
 - [Bamboo](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
