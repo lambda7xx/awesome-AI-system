@@ -70,7 +70,7 @@
  
 
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
-
+- [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
 
 ### Serving
 - [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access](https://github.com/MachineLearningSystem/DeepPlan.git) Eurosys'23
@@ -121,7 +121,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 - [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers](https://github.com/MachineLearningSystem/AutoMoE) 
 
-- [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
+
 
 ### Schedule
 - [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
