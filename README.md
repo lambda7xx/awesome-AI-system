@@ -172,7 +172,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://github.com/MachineLearningSystem/pet-osdi21-ae) OSDI'21
 
 - [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores](https://github.com/MachineLearningSystem/APNN-TC) SC'21
-- [https://github.com/MachineLearningSystem/iGUARD](https://github.com/MachineLearningSystem/iGUARD.git) SOSP'21
+- [iGUARD](https://github.com/MachineLearningSystem/iGUARD.git) SOSP'21
 
 - [Fluid: Resource-Aware Hyperparameter Tuning Engine](https://github.com/MachineLearningSystem/Fluid) MLSYS'21
 - [Baechi: Fast Device Placement on Machine Learning Graphs ](https://github.com/MachineLearningSystem/baechi) SOCC'20 
