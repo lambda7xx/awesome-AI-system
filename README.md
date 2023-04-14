@@ -24,8 +24,8 @@
 - [ModelKeeper: Accelerating DNN Training via Automated Training Warmup](https://github.com/MachineLearningSystem/ModelKeeper) NSDI'23
 
 - [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework](https://github.com/MachineLearningSystem/Hetu) VLDB'22
-
--   [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe)  arXiv preprint arXiv:2103.13262
+- [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://github.com/alpa-projects/alpa.git) OSDI'22
+- [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe)  arXiv preprint arXiv:2103.13262
 
 - [λDNN: Achieving Predictable Distributed DNN Training with Serverless Architectures](https://github.com/MachineLearningSystem/lambdadnn) TC'21
 
