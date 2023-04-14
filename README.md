@@ -67,7 +67,8 @@
 
 - [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server](https://github.com/MachineLearningSystem/geeps) Eurosys'16
 
- 
+ - [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
+
 
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
 - [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
@@ -97,7 +98,6 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 
 
-- [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
 
 - [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak) 
 
