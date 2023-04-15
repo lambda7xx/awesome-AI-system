@@ -49,6 +49,8 @@
 
 - [Piper: Multidimensional Planner for DNN Parallelization](https://github.com/MachineLearningSystem/piper) NeurIPS'21
 
+- [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://github.com/hpcaitech/ColossalAI)
+
 - [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://github.com/MachineLearningSystem/omnireduce.git) SIGCOMM'21
 
 - [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models](https://github.com/MachineLearningSystem/PipeTransformer.git) ICML'21
