@@ -9,6 +9,8 @@
   - [Schedule](#schedule)
   - [Optimization](#optimzation)
   - [GNN](#GNN)
+  - [Fine-Tune](#Fine-Tune)
+  - [Misc](#Misc)
 - [Contribute](#contribute)
 
 ## Papers
@@ -56,6 +58,8 @@
 - [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models](https://github.com/MachineLearningSystem/PipeTransformer.git) ICML'21
 
 - [DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training](https://github.com/MachineLearningSystem/DAPPLE) PPOPP'21
+
+- [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
 
 - [TeraPipe:Large-Scale Language Modeling with Pipeline Parallelism](https://github.com/MachineLearningSystem/terapipe) ICML'21 
 
@@ -136,7 +140,6 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [Synergy : Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://github.com/MachineLearningSystem/synergy.git) OSDI'22
 
 - [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://github.com/MachineLearningSystem/adaptdl) OSDI'21
-- [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters](https://github.com/MachineLearningSystem/socc22-miso) SOCC'22 
 
 - [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/ChronusArtifact) SOCC'21 
 
@@ -151,6 +154,11 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 ### Optimization
 - [Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow](https://github.com/MachineLearningSystem/spada-sim) ASPLOS'23 
 
+- [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters](https://github.com/MachineLearningSystem/socc22-miso) SOCC'22 
+
+- [Accpar: Tensor partitioning for heterogeneous deep learning accelerators](https://github.com/MachineLearningSystem/AccPar) HPCA'20 
+
+
 - [Hidet: Task Mapping Programming Paradigm for Deep Learning Tensor Programs](https://github.com/MachineLearningSystem/hidet) ASPLOS'23
 
 - [iGniter: Interference-Aware GPU Resource Provisioning for Predictable DNN Inference in the Cloud](https://github.com/MachineLearningSystem/igniter) TPDS'22 
@@ -159,17 +167,13 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 - [Efficient Quantized Sparse Matrix Operations on Tensor Cores](https://github.com/MachineLearningSystem/Magicube) SC'22
 
-- [Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://github.com/MachineLearningSystem/gpu_variability_sc22_artifact) SC'22 
 
-- [Prediction of the Resource Consumption of Distributed Deep Learning Systems](https://github.com/MachineLearningSystem/Driple) SIGMETRICS'22 
 - [Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers](https://github.com/MachineLearningSystem/harmony) VLDB'22
 
-- [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications](https://github.com/MachineLearningSystem/HPCA22_SuperCloud) HPCA'22
 - [Pets](https://github.com/MachineLearningSystem/PetS-ATC-2022) ATC'22 
 
-- [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
 
-- [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
+
 
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://github.com/MachineLearningSystem/pet-osdi21-ae) OSDI'21
 
@@ -179,7 +183,6 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [Fluid: Resource-Aware Hyperparameter Tuning Engine](https://github.com/MachineLearningSystem/Fluid) MLSYS'21
 - [Baechi: Fast Device Placement on Machine Learning Graphs ](https://github.com/MachineLearningSystem/baechi) SOCC'20 
 
-- [Accpar: Tensor partitioning for heterogeneous deep learning accelerators](https://github.com/MachineLearningSystem/AccPar) HPCA'20 
 
 - [Dynamic Parameter Allocation in Parameter Servers](https://github.com/MachineLearningSystem/AdaPS) VLDB'20 
 
@@ -200,5 +203,17 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [Reducing Communication in Graph Neural Network Training](https://github.com/MachineLearningSystem/CAGNET) SC'20 
 
 - [awesome GNN](https://github.com/chwan1016/awesome-gnn-systems)
+
+### Fine-Tune
+- - [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
+
+
+### Misc 
+- [Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://github.com/MachineLearningSystem/gpu_variability_sc22_artifact) SC'22 
+
+- [Prediction of the Resource Consumption of Distributed Deep Learning Systems](https://github.com/MachineLearningSystem/Driple) SIGMETRICS'22 
+
+- [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications](https://github.com/MachineLearningSystem/HPCA22_SuperCloud) HPCA'22
+
 ## Contribute
 We encourage all contributions to this repository. Open an [issue](https://github.com/lambda7xx/awesome-AI-system/issues) or send a [pull request](https://github.com/lambda7xx/awesome-AI-system/pulls).
