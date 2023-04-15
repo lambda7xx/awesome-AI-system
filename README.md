@@ -1,5 +1,6 @@
 # Awesome AI System
 
+This repo is motivated by [awesome tensor compilers](https://github.com/merrymercy/awesome-tensor-compilers.git).Thanks Lianmin.
 ## Contents
 
 - [Papers](#paper)
