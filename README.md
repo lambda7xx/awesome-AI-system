@@ -1,6 +1,6 @@
 # Awesome AI System
 
-This repo is motivated by [awesome tensor compilers](https://github.com/merrymercy/awesome-tensor-compilers.git).Thanks Lianmin.
+This repo is motivated by [awesome tensor compilers](https://github.com/merrymercy/awesome-tensor-compilers.git).
 ## Contents
 
 - [Papers](#paper)
@@ -17,7 +17,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Papers
 
 ### Training
-- [Bamboo](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
+- [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
+- [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism](https://github.com/MachineLearningSystem/HPCA23-mpress) HPCA'23 
 - [TopoOpt: Optimizing the Network Topology for Distributed DNN Training](https://github.com/MachineLearningSystem/TopoOpt) NSDI'23 
 - [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression](https://github.com/MachineLearningSystem/Optimus-CC) ASPLOS'23
 
@@ -32,7 +33,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [λDNN: Achieving Predictable Distributed DNN Training with Serverless Architectures](https://github.com/MachineLearningSystem/lambdadnn) TC'21
 
-- [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework.](https://github.com/PKU-DAIR/Hetu) VLDB'22
+
 
 - [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training](https://github.com/MachineLearningSystem/sc22-ae-big_model) SC'22 
 - [AMP: Automatically Finding Model Parallel Strategies with Heterogeneity Awareness](https://github.com/MachineLearningSystem/AMP) NeurIPS '22
@@ -206,7 +207,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [awesome GNN](https://github.com/chwan1016/awesome-gnn-systems)
 
 ### Fine-Tune
-- - [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
+-  [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
 
 
 ### Misc 
