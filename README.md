@@ -5,7 +5,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [Papers](#paper)
   - [Training](#training)
-  - [Serving](#Serving)
+  - [Serving-Inference](#Serving-Inference)
   - [MoE](#MoE)
   - [Schedule](#schedule)
   - [Optimization](#optimzation)
@@ -81,7 +81,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
 - [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
 
-### Serving
+### Serving-Inference
 - [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access](https://github.com/MachineLearningSystem/DeepPlan.git) Eurosys'23
 - [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.](https://github.com/MachineLearningSystem/hidet)
 - [MPCFormer: fast, performant, and private transformer inference with MPC](https://github.com/DachengLi1/MPCFormer) ICLR'23 
