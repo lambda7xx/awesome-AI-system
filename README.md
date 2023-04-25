@@ -191,6 +191,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [Data Movement Is All You Need: A Case Study on Optimizing Transformers](https://github.com/MachineLearningSystem/substation) 
 
 ### GNN
+- [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://github.com/MachineLearningSystem/MGG-OSDI23-AE) OSDI'23
 - [COGNN](https://github.com/MachineLearningSystem/CoGNN_info_for_SC22.git) SC'22
 - [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs](https://github.com/MachineLearningSystem/TCGNN-Pytorch)
 - [GNNAdvisor: An Efficient Runtime System for GNN Acceleration on GPUs](https://github.com/MachineLearningSystem/OSDI21_AE-GNN) OSDI'21
