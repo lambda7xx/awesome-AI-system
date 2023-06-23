@@ -10,7 +10,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [Communication](#communication)
   - [Serving-Inference](#Serving-Inference)
   - [MoE](#MoE)
-  - [Schedule](#schedule)
+  - [GPU Cluster Management](#gpu-cluster-management)
+  - [Schedule and Resource Management](#schedule)
   - [Optimization](#optimzation)
   - [GNN](#GNN)
   - [Fine-Tune](#Fine-Tune)
@@ -76,19 +77,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### Training 
 
-- [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ](https://github.com/MachineLearningSystem/slapo)  arxiv 
-
 - [ModelKeeper: Accelerating DNN Training via Automated Training Warmup](https://github.com/MachineLearningSystem/ModelKeeper) NSDI'23
 
-- [Out-of-order backprop: an effective scheduling technique for deep learning](https://github.com/MachineLearningSystem/ooo-backprop) Eurosys'22 
-
-- [KungFu](https://github.com/MachineLearningSystem/KungFu) OSDI'20
 
 - [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training SC'22](https://github.com/MachineLearningSystem/sc22-ae-big_model) 
 
 - [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}](https://github.com/MachineLearningSystem/EasyParallelLibrary) ATC'22
-
-- [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications](https://github.com/MachineLearningSystem/PipeSwitch) OSDI'20 
 
 - [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server](https://github.com/MachineLearningSystem/geeps) Eurosys'16
 
@@ -151,28 +145,37 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers](https://github.com/MachineLearningSystem/AutoMoE) 
 
-
-
-### Schedule 
-- [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
+### GPU Cluster Management
 - [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/Lucid) ASPLOS'23
 
 - [Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning](https://github.com/MachineLearningSystem/shockwave) NSDI'23
-
-- [Multi-Resource Interleaving for Deep Learning Training](https://github.com/MachineLearningSystem/Muri) SIGCOMM'22
 
 - [Synergy : Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://github.com/MachineLearningSystem/synergy.git) OSDI'22
 
 - [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://github.com/MachineLearningSystem/adaptdl) OSDI'21
 
-- [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/ChronusArtifact) SOCC'21 
-
 - [Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](https://github.com/MachineLearningSystem/gavel) OSDI'20
 
 - [Tiresias -- A GPU Cluster Manager for Distributed Deep Learning Training without complete job information](https://github.com/MachineLearningSystem/Tiresias) NSDI'19
 
+- [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/ChronusArtifact) SOCC'21 
+
+
 - [awesome DL scheduler](https://github.com/MachineLearningSystem/Awesome-DL-Scheduling-Papers.git)
 
+### Schedule and Resource Management
+
+- [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
+
+- [Multi-Resource Interleaving for Deep Learning Training](https://github.com/MachineLearningSystem/Muri) SIGCOMM'22
+
+- [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ](https://github.com/MachineLearningSystem/slapo)  arxiv 
+
+- [Out-of-order backprop: an effective scheduling technique for deep learning](https://github.com/MachineLearningSystem/ooo-backprop) Eurosys'22 
+
+- [ KungFu: Making Training in Distributed Machine Learning Adaptive](https://github.com/MachineLearningSystem/KungFu) OSDI'20
+
+- [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications](https://github.com/MachineLearningSystem/PipeSwitch) OSDI'20 
 
 
 ### Optimization
@@ -190,7 +193,6 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](https://github.com/MachineLearningSystem/CheckFreq) FAST'22
 
 - [Efficient Quantized Sparse Matrix Operations on Tensor Cores](https://github.com/MachineLearningSystem/Magicube) SC'22
-
 
 - [Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers](https://github.com/MachineLearningSystem/harmony) VLDB'22
 
