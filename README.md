@@ -4,48 +4,52 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Contents
 
 - [Papers](#paper)
+  - [Framework](#framework)
+  - [Parallellism Training](#parallellism-training)
   - [Training](#training)
+  - [Communication](#communication)
   - [Serving-Inference](#Serving-Inference)
   - [MoE](#MoE)
   - [Schedule](#schedule)
   - [Optimization](#optimzation)
   - [GNN](#GNN)
   - [Fine-Tune](#Fine-Tune)
+  - [Energy](#energy)
   - [Misc](#Misc)
 - [Contribute](#contribute)
 
 ## Papers
 
-### Training
-- [EnvPipe: Performance-preserving DNN Training Framework for Saving Energy ATC'23](https://github.com/MachineLearningSystem/23ATC-EnvPipe)
+### Framework
+-  [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
+
+- [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22 ](https://github.com/flexflow/FlexFlow) OSDI'22 
+
+- [Megatron-LM SC21 ](https://github.com/NVIDIA/Megatron-LM.git) 
+
+- [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters OSDI'20](https://github.com/bytedance/byteps) 
+
+- [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://github.com/hpcaitech/ColossalAI)
+
+- [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://github.com/MachineLearningSystem/Hetu) 
+
+### Parallellism Training
+
 - [PipeFisher: Efficient Training of Large Language Models Using Pipelining and Fisher Information Matrices  MLSYS'23](https://github.com/MachineLearningSystem/23MLSYS-pipe-fisher)
 - [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
+
 - [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism](https://github.com/MachineLearningSystem/HPCA23-mpress) HPCA'23 
-- [TopoOpt: Optimizing the Network Topology for Distributed DNN Training](https://github.com/MachineLearningSystem/TopoOpt) NSDI'23 
+
 - [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression](https://github.com/MachineLearningSystem/Optimus-CC) ASPLOS'23
 
-- [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ](https://github.com/MachineLearningSystem/slapo)  arxiv 
-- [Zeus: Understanding and Optimizing {GPU} Energy Consumption of {DNN} Training](https://github.com/MachineLearningSystem/Zeus) NSDI'23
-
-- [ModelKeeper: Accelerating DNN Training via Automated Training Warmup](https://github.com/MachineLearningSystem/ModelKeeper) NSDI'23
-
-- [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework](https://github.com/MachineLearningSystem/Hetu) VLDB'22
 - [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://github.com/alpa-projects/alpa.git) OSDI'22
-- [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe)  arXiv preprint arXiv:2103.13262
-
-- [λDNN: Achieving Predictable Distributed DNN Training with Serverless Architectures](https://github.com/MachineLearningSystem/lambdadnn) TC'21
 
 
-
-- [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training](https://github.com/MachineLearningSystem/sc22-ae-big_model) SC'22 
 - [AMP: Automatically Finding Model Parallel Strategies with Heterogeneity Awareness](https://github.com/MachineLearningSystem/AMP) NeurIPS '22
-
-- [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}](https://github.com/MachineLearningSystem/EasyParallelLibrary) ATC'22
 
 - [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization](https://github.com/flexflow/FlexFlow) OSDI'22 
 
 - [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://github.com/MachineLearningSystem/naspipe) ASPLOS'22
-- [Out-of-order backprop: an effective scheduling technique for deep learning](https://github.com/MachineLearningSystem/ooo-backprop) Eurosys'22 
 
 - [Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://github.com/MachineLearningSystem/varuna) Eurosys'22 
 
@@ -55,27 +59,13 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [Piper: Multidimensional Planner for DNN Parallelization](https://github.com/MachineLearningSystem/piper) NeurIPS'21
 
-- [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://github.com/hpcaitech/ColossalAI)
-
-- [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://github.com/MachineLearningSystem/omnireduce.git) SIGCOMM'21
-
 - [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models](https://github.com/MachineLearningSystem/PipeTransformer.git) ICML'21
 
 - [DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training](https://github.com/MachineLearningSystem/DAPPLE) PPOPP'21
 
-- [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
-
 - [TeraPipe:Large-Scale Language Modeling with Pipeline Parallelism](https://github.com/MachineLearningSystem/terapipe) ICML'21 
 
-- [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications](https://github.com/MachineLearningSystem/PipeSwitch) OSDI'20 
-
-- [KungFu](https://github.com/MachineLearningSystem/KungFu) OSDI'20
-
-- [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters](https://github.com/bytedance/byteps) OSDI'20
-
 - [PipeDream: Pipeline Parallelism for DNN Training](https://github.com/MachineLearningSystem/pipedream.git) SOSP'19
-
-- [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server](https://github.com/MachineLearningSystem/geeps) Eurosys'16
 
  - [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
 
@@ -83,21 +73,52 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
 - [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
 
+### Training 
+
+- [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ](https://github.com/MachineLearningSystem/slapo)  arxiv 
+
+- [ModelKeeper: Accelerating DNN Training via Automated Training Warmup](https://github.com/MachineLearningSystem/ModelKeeper) NSDI'23
+
+- [Out-of-order backprop: an effective scheduling technique for deep learning](https://github.com/MachineLearningSystem/ooo-backprop) Eurosys'22 
+
+- [KungFu](https://github.com/MachineLearningSystem/KungFu) OSDI'20
+
+- [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training SC'22](https://github.com/MachineLearningSystem/sc22-ae-big_model) 
+
+- [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}](https://github.com/MachineLearningSystem/EasyParallelLibrary) ATC'22
+
+- [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications](https://github.com/MachineLearningSystem/PipeSwitch) OSDI'20 
+
+- [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server](https://github.com/MachineLearningSystem/geeps) Eurosys'16
+
+
+### Communication
+
+- [TopoOpt: Optimizing the Network Topology for Distributed DNN Training](https://github.com/MachineLearningSystem/TopoOpt) NSDI'23 
+
+- [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
+
+- [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning SIGCOMM'21 ](https://github.com/MachineLearningSystem/omnireduce.git) 
+
 ### Serving-Inference
+
 - [Beta: Statistical Multiplexing with Model Parallelism for Deep Learning Serving OSDI'23](https://github.com/MachineLearningSystem/OSDI23-mms)
+
 - [Optimizing Dynamic Neural Networks with Brainstorm OSDI'23](https://github.com/MachineLearningSystem/23OSDI-brainstorm)
+
 - [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access](https://github.com/MachineLearningSystem/DeepPlan.git) Eurosys'23
+
 - [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.](https://github.com/MachineLearningSystem/hidet)
+
 - [MPCFormer: fast, performant, and private transformer inference with MPC](https://github.com/DachengLi1/MPCFormer) ICLR'23 
-- [High-throughput Generative Inference of Large Language Model
-with a Single GPU](https://github.com/MachineLearningSystem/FlexGen) 
+
+- [High-throughput Generative Inference of Large Language Modelwith a Single GPU](https://github.com/MachineLearningSystem/FlexGen) 
+
 - [VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Serving via Adaptive Compilation and Scheduling](https://github.com/MachineLearningSystem/VELTAIR_ASPLOS22) ASPLOS'22
 
 - [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://github.com/MachineLearningSystem/DVABatch)  ATC'22 
 
 - [Cocktail: A Multidimensional Optimization for Model Serving in Cloud](https://github.com/MachineLearningSystem/cocktail) NSDI'22
-
-
 
 - [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing](https://github.com/MachineLearningSystem/glet) ATC'22
 
@@ -106,15 +127,12 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [ INFaaS: Automated Model-less Inference Serving](https://github.com/MachineLearningSystem/INFaaS.git) ATC'21
 
 - [Abacus](https://github.com/MachineLearningSystem/Abacus) SC'21
+
 - [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://github.com/MachineLearningSystem/clockwork) OSDI'20
-
-
-
 
 - [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak) 
 
 - [Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://github.com/MachineLearningSystem/MArk-Project) ATC'19 
-
 
 - [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://github.com/MachineLearningSystem/nexus) SOSP'19 
 
@@ -136,7 +154,7 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 
 
-### Schedule
+### Schedule 
 - [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
 - [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/Lucid) ASPLOS'23
 
@@ -179,9 +197,6 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 - [Pets](https://github.com/MachineLearningSystem/PetS-ATC-2022) ATC'22 
 
-
-
-
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://github.com/MachineLearningSystem/pet-osdi21-ae) OSDI'21
 
 - [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores](https://github.com/MachineLearningSystem/APNN-TC) SC'21
@@ -189,7 +204,6 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 
 - [Fluid: Resource-Aware Hyperparameter Tuning Engine](https://github.com/MachineLearningSystem/Fluid) MLSYS'21
 - [Baechi: Fast Device Placement on Machine Learning Graphs ](https://github.com/MachineLearningSystem/baechi) SOCC'20 
-
 
 - [Dynamic Parameter Allocation in Parameter Servers](https://github.com/MachineLearningSystem/AdaPS) VLDB'20 
 
@@ -217,6 +231,11 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 ### Fine-Tune
 -  [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
 
+### Energy
+
+- [Zeus: Understanding and Optimizing {GPU} Energy Consumption of {DNN} Training NSDI'23](https://github.com/MachineLearningSystem/Zeus) 
+
+- [EnvPipe: Performance-preserving DNN Training Framework for Saving Energy ATC'23](https://github.com/MachineLearningSystem/23ATC-EnvPipe)
 
 ### Misc 
 - [Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://github.com/MachineLearningSystem/gpu_variability_sc22_artifact) SC'22 
@@ -224,6 +243,8 @@ with a Single GPU](https://github.com/MachineLearningSystem/FlexGen)
 - [Prediction of the Resource Consumption of Distributed Deep Learning Systems](https://github.com/MachineLearningSystem/Driple) SIGMETRICS'22 
 
 - [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications](https://github.com/MachineLearningSystem/HPCA22_SuperCloud) HPCA'22
+
+
 
 ## Contribute
 We encourage all contributions to this repository. Open an [issue](https://github.com/lambda7xx/awesome-AI-system/issues) or send a [pull request](https://github.com/lambda7xx/awesome-AI-system/pulls).
