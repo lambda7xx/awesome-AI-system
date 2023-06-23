@@ -67,8 +67,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [PipeDream: Pipeline Parallelism for DNN Training](https://github.com/MachineLearningSystem/pipedream.git) SOSP'19
 
- - [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
+- [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
 
+- [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak) 
 
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
 - [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
@@ -129,8 +130,6 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Abacus](https://github.com/MachineLearningSystem/Abacus) SC'21
 
 - [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://github.com/MachineLearningSystem/clockwork) OSDI'20
-
-- [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak) 
 
 - [Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://github.com/MachineLearningSystem/MArk-Project) ATC'19 
 
@@ -200,7 +199,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://github.com/MachineLearningSystem/pet-osdi21-ae) OSDI'21
 
 - [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores](https://github.com/MachineLearningSystem/APNN-TC) SC'21
-- [iGUARD](https://github.com/MachineLearningSystem/iGUARD.git) SOSP'21
+-
+ [iGUARD](https://github.com/MachineLearningSystem/iGUARD.git) SOSP'21
 
 - [Fluid: Resource-Aware Hyperparameter Tuning Engine](https://github.com/MachineLearningSystem/Fluid) MLSYS'21
 - [Baechi: Fast Device Placement on Machine Learning Graphs ](https://github.com/MachineLearningSystem/baechi) SOCC'20 
