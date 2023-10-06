@@ -4,6 +4,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Contents
 
 - [Papers](#paper)
+  - [LLM Serving](#LLM-Serving)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
   - [Training](#training)
@@ -20,6 +21,11 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Contribute](#contribute)
 
 ## Papers
+
+###LLM Serving
+- [Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23](https://github.com/vllm-project/vllm)
+
+- [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
 
 ### Framework
 -  [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
@@ -96,7 +102,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning SIGCOMM'21 ](https://github.com/MachineLearningSystem/omnireduce.git) 
 
 ### Serving-Inference
-- [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
+
+- [Paella: Low-latency Model Serving with Virtualized GPU Scheduling SOSP'23](https://github.com/MachineLearningSystem/23sosp-paella)
+
 - [Beta: Statistical Multiplexing with Model Parallelism for Deep Learning Serving OSDI'23](https://github.com/MachineLearningSystem/OSDI23-mms)
 
 - [Optimizing Dynamic Neural Networks with Brainstorm OSDI'23](https://github.com/MachineLearningSystem/23OSDI-brainstorm)
