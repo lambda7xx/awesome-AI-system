@@ -23,7 +23,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Papers
 
 ### LLM Serving
-- [Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23](https://github.com/vllm-project/vllm)
+- [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
 
 - [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
 
