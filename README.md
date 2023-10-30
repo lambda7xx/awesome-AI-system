@@ -4,6 +4,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Contents
 
 - [Papers](#paper)
+  - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -22,7 +23,14 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ## Papers
 
+### LLM Serving Framework
+
+- [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
+- [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
+- [xFasterTransformer(serving on cpu, high throughput)](https://github.com/intel/xFasterTransformer.git)
+
 ### LLM Serving
+
 - [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
 
 - [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
