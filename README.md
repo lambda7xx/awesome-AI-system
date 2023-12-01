@@ -6,6 +6,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Papers](#paper)
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
+  - [LLM Platform](#LLM-Platform)
+  - [Fancy LLM](#LLM-Fancy)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
   - [Training](#training)
@@ -24,15 +26,24 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Papers
 
 ### LLM Serving Framework
-
+- [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
 - [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
 - [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
 
 ### LLM Serving
 
+- [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
+
 - [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
 
+
 - [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
+
+### LLM Platform
+- [FastChat](https://github.com/lm-sys/FastChat.git)
+
+### Fancy LLM
+- [Teaching LLMs memory management for unbounded context arxiv](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
 
 ### Framework
 -  [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
@@ -48,7 +59,11 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://github.com/MachineLearningSystem/Hetu) 
 
 ### Parallellism Training
-
+- [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
+- [Aceso: Efficient Parallel DNN Training through Iterative Bottleneck Alleviation Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-Aceso)
+- [HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-hap)
+- [Calculon: A Methodology and Tool for High-Level Co-Design of Systems and Large Language Models SC'23](https://github.com/MachineLearningSystem/23sc-calculon)
+- [Artifact for DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-DynaPipe-Megatron-LM)
 - [PipeFisher: Efficient Training of Large Language Models Using Pipelining and Fisher Information Matrices  MLSYS'23](https://github.com/MachineLearningSystem/23MLSYS-pipe-fisher)
 - [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
 
@@ -101,7 +116,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### Communication
-
+- [ARK: GPU-driven Code Execution for Distributed Deep Learning NSDI'23](https://github.com/MachineLearningSystem/23NSDI-arkwo)
 - [TopoOpt: Optimizing the Network Topology for Distributed DNN Training](https://github.com/MachineLearningSystem/TopoOpt) NSDI'23 
 
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
@@ -179,7 +194,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [awesome DL scheduler](https://github.com/MachineLearningSystem/Awesome-DL-Scheduling-Papers.git)
 
 ### Schedule and Resource Management
-
+- [An interference-aware scheduler for fine-grained GPU sharing Resources Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-orion.git)
 - [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
 
 - [Multi-Resource Interleaving for Deep Learning Training](https://github.com/MachineLearningSystem/Muri) SIGCOMM'22
@@ -194,6 +209,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### Optimization
+- [GLake: optimizing GPU memory management and IO transmission ASPLOS'24](https://github.com/MachineLearningSystem/24ASPLOS-glake)
 - [Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow](https://github.com/MachineLearningSystem/spada-sim) ASPLOS'23 
 
 - [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters](https://github.com/MachineLearningSystem/socc22-miso) SOCC'22 
@@ -227,6 +243,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Data Movement Is All You Need: A Case Study on Optimizing Transformers](https://github.com/MachineLearningSystem/substation) 
 
 ### GNN
+- [gSampler: Efficient GPU-Based Graph Sampling for Graph Learning SOSP'23](https://github.com/MachineLearningSystem/23SOSP-gSampler)
 - [Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training ATC'23](https://github.com/MachineLearningSystem/ATC23-Legion)
 - [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs ATC'23](https://github.com/MachineLearningSystem/ATC23-TCGNN-Pytorch)
 - [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://github.com/MachineLearningSystem/MGG-OSDI23-AE) OSDI'23
