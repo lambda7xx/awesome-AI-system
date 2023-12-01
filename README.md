@@ -7,7 +7,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [LLM Platform](#LLM-Platform)
-  - [Fancy LLM](#LLM-Fancy)
+  - [Fancy LLM](#Fancy-LLM)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
   - [Training](#training)
