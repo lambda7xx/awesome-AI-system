@@ -3,7 +3,7 @@
 This repo is motivated by [awesome tensor compilers](https://github.com/merrymercy/awesome-tensor-compilers.git).
 ## Contents
 
-- [Papers](#paper)
+- [Papers-Code](#paper-code)
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [LLM Platform](#LLM-Platform)
@@ -23,7 +23,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [Misc](#Misc)
 - [Contribute](#contribute)
 
-## Papers
+## Papers-Code
 
 ### LLM Serving Framework
 - [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
