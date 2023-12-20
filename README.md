@@ -3,7 +3,7 @@
 This repo is motivated by [awesome tensor compilers](https://github.com/merrymercy/awesome-tensor-compilers.git).
 ## Contents
 
-- [Papers-Code](#paper-code)
+- [Paper-Code](#paper-code)
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [LLM Platform](#LLM-Platform)
@@ -24,7 +24,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [Misc](#Misc)
 - [Contribute](#contribute)
 
-## Papers-Code
+## Paper-Code
 
 ### LLM Serving Framework
 - code [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
@@ -93,7 +93,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - code [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM SC21 ](https://github.com/NVIDIA/Megatron-LM.git) 
 
- paper [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM SC21 ](https://people.eecs.berkeley.edu/~matei/papers/2021/sc_megatron_lm.pdf)
+  paper [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM SC21 ](https://people.eecs.berkeley.edu/~matei/papers/2021/sc_megatron_lm.pdf)
 
 - code [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters OSDI'20](https://github.com/bytedance/byteps) 
   
@@ -108,24 +108,45 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   paper [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://www.vldb.org/pvldb/vol15/p312-miao.pdf)
 
 ### Parallellism Training
-- [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
+- code [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
+  
+  paper [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://assets.amazon.science/33/e5/023653cb46d9abb4baa576c571b3/dynapipe-optimizing-multi-task-training-through-dynamic-pipelines.pdf)
 - [Aceso: Efficient Parallel DNN Training through Iterative Bottleneck Alleviation Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-Aceso)
-- [HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-hap)
-- [Calculon: A Methodology and Tool for High-Level Co-Design of Systems and Large Language Models SC'23](https://github.com/MachineLearningSystem/23sc-calculon)
-- [Artifact for DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-DynaPipe-Megatron-LM)
-- [PipeFisher: Efficient Training of Large Language Models Using Pipelining and Fisher Information Matrices  MLSYS'23](https://github.com/MachineLearningSystem/23MLSYS-pipe-fisher)
-- [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://github.com/MachineLearningSystem/bamboo) NSDI'23 
+- code [HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-hap)
+  
+  paper [HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis Eurosys'24](https://i.cs.hku.hk/~cwu/papers/swzhang-eurosys24.pdf)
 
-- [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism](https://github.com/MachineLearningSystem/HPCA23-mpress) HPCA'23 
+- code [Calculon: A Methodology and Tool for High-Level Co-Design of Systems and Large Language Models SC'23](https://github.com/MachineLearningSystem/23sc-calculon)
 
-- [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression](https://github.com/MachineLearningSystem/Optimus-CC) ASPLOS'23
+  paper [Calculon: A Methodology and Tool for High-Level Co-Design of Systems and Large Language Models SC'23](https://dl.acm.org/doi/pdf/10.1145/3581784.3607102)
 
-- [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://github.com/alpa-projects/alpa.git) OSDI'22
+- code [PipeFisher: Efficient Training of Large Language Models Using Pipelining and Fisher Information Matrices  MLSYS'23](https://github.com/MachineLearningSystem/23MLSYS-pipe-fisher)
 
+ 
+  paper [PipeFisher: Efficient Training of Large Language Models Using Pipelining and Fisher Information Matrices  MLSYS'23](https://arxiv.org/pdf/2211.14133.pdf)
 
-- [AMP: Automatically Finding Model Parallel Strategies with Heterogeneity Awareness](https://github.com/MachineLearningSystem/AMP) NeurIPS '22
+- code [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs NSDI'23 ](https://github.com/MachineLearningSystem/bamboo)  
+ 
+  paper [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs NSDI'23 ](https://www.usenix.org/system/files/nsdi23-thorpe.pdf)
 
-- [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization](https://github.com/flexflow/FlexFlow) OSDI'22 
+- code [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism HPCA'23 ](https://github.com/MachineLearningSystem/HPCA23-mpress) 
+ 
+  paper [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism HPCA'23 ](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10071077)
+
+- code [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression ASPLOS'23](https://github.com/MachineLearningSystem/Optimus-CC) 
+ 
+  paper [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression ASPLOS'23](https://arxiv.org/pdf/2301.09830.pdf)
+- code [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
+
+  paper [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf)
+
+- code [AMP: Automatically Finding Model Parallel Strategies with Heterogeneity Awareness NeurIPS '22 ](https://github.com/MachineLearningSystem/AMP) 
+
+  paper [AMP: Automatically Finding Model Parallel Strategies with Heterogeneity Awareness NeurIPS '22 ](https://arxiv.org/pdf/2210.07297.pdf)
+
+- code [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22](https://github.com/flexflow/FlexFlow) 
+
+  paper [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22](https://www.usenix.org/system/files/osdi22-unger.pdf)
 
 - [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://github.com/MachineLearningSystem/naspipe) ASPLOS'22
 
