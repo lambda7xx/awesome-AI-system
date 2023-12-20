@@ -27,52 +27,85 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Papers-Code
 
 ### LLM Serving Framework
-- [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
-- [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
-- [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
+- code [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
+- code [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
+- code [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
 
 ### LLM Serving
 
-- [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
+- code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
+  
+  paper [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://www.vldb.org/pvldb/vol17/p211-xia.pdf)
 
 - code [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://github.com/MachineLearningSystem/PowerInfer.git)
   
   paper [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf)
 
-- [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
+- code [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
 
-- [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
+  paper [Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23](https://arxiv.org/pdf/2309.06180.pdf)
+
+- code [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
+
+  paper [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://arxiv.org/abs/2305.09781.pdf)
 
 ### LLM Platform
-- [FastChat](https://github.com/lm-sys/FastChat.git)
+- code [FastChat](https://github.com/lm-sys/FastChat.git)
 
 ### LLM FineTune
-- [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://github.com/S-LoRA/S-LoRA.git)
-- [Punica: Serving multiple LoRA finetuned LLM as one](https://github.com/punica-ai/punica.git)
+- code [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://github.com/S-LoRA/S-LoRA.git)
+
+  paper [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://arxiv.org/pdf/2311.03285.pdf)
+
+- code [Punica: Serving multiple LoRA finetuned LLM as one](https://github.com/punica-ai/punica.git)
+ 
+  paper [Punica: Serving multiple LoRA finetuned LLM as one](https://arxiv.org/pdf/2310.18547.pdf)
 
 ### Fancy LLM
-- [LLMCompiler: An LLM Compiler for Parallel Function Calling](https://github.com/MachineLearningSystem/LLMCompiler)
+- code [LLMCompiler: An LLM Compiler for Parallel Function Calling](https://github.com/MachineLearningSystem/LLMCompiler)
 
-- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba/tree/main)
+  paper [LLMCompiler: An LLM Compiler for Parallel Function Calling 23arxiv](https://arxiv.org/pdf/2312.04511.pdf)
 
-- [Teaching LLMs memory management for unbounded context arxiv](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
+- code [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba/tree/main)
+  
+  paper [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752.pdf)
 
-- [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding.git)
+- code [Teaching LLMs memory management for unbounded context arxiv](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
 
-- [EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation](https://github.com/SafeAILab/EAGLE.git)
+  paper [MEMGPT: TOWARDS LLMS AS OPERATING SYSTEMS](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
+
+- code [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding.git)
+  
+  blog [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://lmsys.org/blog/2023-11-21-lookahead-decoding/)
+
+- code [EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation](https://github.com/SafeAILab/EAGLE.git)
+
+  blog [EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation](https://sites.google.com/view/eagle-llm)
 
 ### Framework
--  [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
+- code [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
 
-- [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22 ](https://github.com/flexflow/FlexFlow) OSDI'22 
+  paper [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://arxiv.org/pdf/2201.12023.pdf)
 
-- [Megatron-LM SC21 ](https://github.com/NVIDIA/Megatron-LM.git) 
+- code [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22 ](https://github.com/flexflow/FlexFlow) OSDI'22 
+   
+  paper [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22](https://www.usenix.org/system/files/osdi22-unger.pdf)
 
-- [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters OSDI'20](https://github.com/bytedance/byteps) 
+- code [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM SC21 ](https://github.com/NVIDIA/Megatron-LM.git) 
 
-- [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://github.com/hpcaitech/ColossalAI)
+ paper [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM SC21 ](https://people.eecs.berkeley.edu/~matei/papers/2021/sc_megatron_lm.pdf)
 
-- [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://github.com/MachineLearningSystem/Hetu) 
+- code [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters OSDI'20](https://github.com/bytedance/byteps) 
+  
+  paper [A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters OSDI'20](https://www.usenix.org/system/files/osdi20-jiang.pdf)
+
+- code [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training ICPP'23](https://github.com/hpcaitech/ColossalAI)
+
+  paper [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training ICPP'23](https://dl.acm.org/doi/pdf/10.1145/3605573.3605613)
+
+- code [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://github.com/MachineLearningSystem/Hetu) 
+ 
+  paper [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://www.vldb.org/pvldb/vol15/p312-miao.pdf)
 
 ### Parallellism Training
 - [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
