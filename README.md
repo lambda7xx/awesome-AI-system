@@ -39,7 +39,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
 
-- [LLMCompiler: An LLM Compiler for Parallel Function Calling](https://github.com/MachineLearningSystem/LLMCompiler)
+
 
 
 - [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
@@ -52,7 +52,10 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Punica: Serving multiple LoRA finetuned LLM as one](https://github.com/punica-ai/punica.git)
 
 ### Fancy LLM
-- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](Mamba: Linear-Time Sequence Modeling with Selective State Spaces)
+- [LLMCompiler: An LLM Compiler for Parallel Function Calling](https://github.com/MachineLearningSystem/LLMCompiler)
+
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba/tree/main)
+
 - [Teaching LLMs memory management for unbounded context arxiv](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
 
 - [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding.git)
