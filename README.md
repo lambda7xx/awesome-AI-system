@@ -362,18 +362,34 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [awesome DL scheduler](https://github.com/MachineLearningSystem/Awesome-DL-Scheduling-Papers.git)
 
 ### Schedule and Resource Management
-- [An interference-aware scheduler for fine-grained GPU sharing Resources Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-orion.git)
-- [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) ASPLOS'23 
+- code [An interference-aware scheduler for fine-grained GPU sharing Resources Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-orion.git)
 
-- [Multi-Resource Interleaving for Deep Learning Training](https://github.com/MachineLearningSystem/Muri) SIGCOMM'22
+  paper [An interference-aware scheduler for fine-grained GPU sharing Resources Eurosys'24](https://anakli.inf.ethz.ch/papers/orion_eurosys24.pdf)
 
-- [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ](https://github.com/MachineLearningSystem/slapo)  arxiv 
 
-- [Out-of-order backprop: an effective scheduling technique for deep learning](https://github.com/MachineLearningSystem/ooo-backprop) Eurosys'22 
+- code [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning ASPLOS'23](https://github.com/MachineLearningSystem/ElasticFlow-ASPLOS23) 
 
-- [ KungFu: Making Training in Distributed Machine Learning Adaptive](https://github.com/MachineLearningSystem/KungFu) OSDI'20
+  paper [ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning ASPLOS'23](https://cp5555.github.io/publications/elasticflow-asplos23.pdf)
 
-- [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications](https://github.com/MachineLearningSystem/PipeSwitch) OSDI'20 
+- code [Multi-Resource Interleaving for Deep Learning Training SIGCOMM'22](https://github.com/MachineLearningSystem/Muri) 
+  
+  paper [Multi-Resource Interleaving for Deep Learning Training SIGCOMM'22](https://xinjin.github.io/files/SIGCOMM22_Muri.pdf)
+
+- code [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ASPLOS'24](https://github.com/MachineLearningSystem/slapo)  
+
+  paper [Slapo: A Schedule Language for Progressive Optimization of Large Deep Learning Model Training ASPLOS'24](https://arxiv.org/pdf/2302.08005.pdf)
+
+- code [Out-of-order backprop: an effective scheduling technique for deep learning Eurosys'22 ](https://github.com/MachineLearningSystem/ooo-backprop) 
+
+  paper [Out-of-order backprop: an effective scheduling technique for deep learning Eurosys'22 ](https://dl.acm.org/doi/pdf/10.1145/3492321.3519563)
+
+- code [KungFu: Making Training in Distributed Machine Learning Adaptive OSDI'20](https://github.com/MachineLearningSystem/KungFu) 
+ 
+  paper [KungFu: Making Training in Distributed Machine Learning Adaptive OSDI'20](https://www.usenix.org/system/files/osdi20-mai.pdf)
+
+- code [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications OSDI'20 ](https://github.com/MachineLearningSystem/PipeSwitch) 
+
+  paper [PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications OSDI'20 ](https://www.usenix.org/system/files/osdi20-bai.pdf)
 
 
 ### Optimization
