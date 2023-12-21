@@ -230,41 +230,78 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### Serving-Inference
 
-- [Paella: Low-latency Model Serving with Virtualized GPU Scheduling SOSP'23](https://github.com/MachineLearningSystem/23sosp-paella)
+- code [Paella: Low-latency Model Serving with Virtualized GPU Scheduling SOSP'23](https://github.com/MachineLearningSystem/23sosp-paella)
 
-- [Beta: Statistical Multiplexing with Model Parallelism for Deep Learning Serving OSDI'23](https://github.com/MachineLearningSystem/OSDI23-mms)
+  paper [Paella: Low-latency Model Serving with Virtualized GPU Scheduling SOSP'23](https://dl.acm.org/doi/pdf/10.1145/3600006.3613163)
 
-- [Optimizing Dynamic Neural Networks with Brainstorm OSDI'23](https://github.com/MachineLearningSystem/23OSDI-brainstorm)
+- code [AlpaServe: Statistical Multiplexing with Model  Parallelism for Deep Learning Serving OSDI'23](https://github.com/MachineLearningSystem/OSDI23-mms)
+  
+  paper [AlpaServe: Statistical Multiplexing with Model  Parallelism for Deep Learning Serving OSDI'23](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf)
+- code [Optimizing Dynamic Neural Networks with Brainstorm OSDI'23](https://github.com/MachineLearningSystem/23OSDI-brainstorm)
 
-- [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access](https://github.com/MachineLearningSystem/DeepPlan.git) Eurosys'23
+  paper [Optimizing Dynamic Neural Networks with Brainstorm OSDI'23](https://www.usenix.org/system/files/osdi23-cui.pdf)
 
-- [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.](https://github.com/MachineLearningSystem/hidet)
+- code [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access Eurosys'23](https://github.com/MachineLearningSystem/DeepPlan.git) 
 
-- [MPCFormer: fast, performant, and private transformer inference with MPC](https://github.com/DachengLi1/MPCFormer) ICLR'23 
+  paper [Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access Eurosys'23](https://jeongseob.github.io/papers/jeong_eurosys23.pdf)
 
-- [High-throughput Generative Inference of Large Language Modelwith a Single GPU](https://github.com/MachineLearningSystem/FlexGen) 
 
-- [VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Serving via Adaptive Compilation and Scheduling](https://github.com/MachineLearningSystem/VELTAIR_ASPLOS22) ASPLOS'22
+- code [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.ASPLOS'23](https://github.com/MachineLearningSystem/hidet)
 
-- [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://github.com/MachineLearningSystem/DVABatch)  ATC'22 
+  paper [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs.ASPLOS'23](https://arxiv.org/pdf/2210.09603.pdf)
+- code [MPCFormer: fast, performant, and private transformer inference with MPC ICLR'23](https://github.com/DachengLi1/MPCFormer)  
 
-- [Cocktail: A Multidimensional Optimization for Model Serving in Cloud](https://github.com/MachineLearningSystem/cocktail) NSDI'22
+  paper [MPCFormer: fast, performant, and private transformer inference with MPC ICLR'23](https://arxiv.org/pdf/2211.01452.pdf)
 
-- [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing](https://github.com/MachineLearningSystem/glet) ATC'22
+- code [High-throughput Generative Inference of Large Language Modelwith a Single GPU ICML'23](https://github.com/MachineLearningSystem/FlexGen) 
+ 
+  paper [High-throughput Generative Inference of Large Language Modelwith a Single GPU ICML'23](https://arxiv.org/pdf/2303.06865.pdf)
 
-- [RIBBON: cost-effective and qos-aware deep learning model inference using a diverse pool of cloud computing instances](https://github.com/MachineLearningSystem/SC21_Ribbon) SC'21
+- code [VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Serving via Adaptive Compilation and Scheduling ASPLOS'22](https://github.com/MachineLearningSystem/VELTAIR_ASPLOS22) 
 
-- [ INFaaS: Automated Model-less Inference Serving](https://github.com/MachineLearningSystem/INFaaS.git) ATC'21
+  paper [VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Serving via Adaptive Compilation and Scheduling ASPLOS'22](https://arxiv.org/pdf/2201.06212.pdf)
 
-- [Abacus](https://github.com/MachineLearningSystem/Abacus) SC'21
+- code [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs ATC'22 ](https://github.com/MachineLearningSystem/DVABatch)  
 
-- [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://github.com/MachineLearningSystem/clockwork) OSDI'20
 
-- [Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://github.com/MachineLearningSystem/MArk-Project) ATC'19 
+  paper [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs ATC'22 ](https://www.usenix.org/system/files/atc22-cui.pdf)
 
-- [Nexus: a GPU cluster engine for accelerating DNN-based video analysis](https://github.com/MachineLearningSystem/nexus) SOSP'19 
+- code [Cocktail: A Multidimensional Optimization for Model Serving in Cloud NSDI'22 ](https://github.com/MachineLearningSystem/cocktail) 
 
-- [Clipper:A low-latency prediction-serving system](https://github.com/ucbrise/clipper) NSDI'17
+  paper [Cocktail: A Multidimensional Optimization for Model Serving in Cloud NSDI'22 ](https://www.usenix.org/system/files/nsdi22-paper-gunasekaran.pdf)
+
+- code [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing ATC'22](https://github.com/MachineLearningSystem/glet) 
+
+  paper [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing ATC'22](https://www.usenix.org/system/files/atc22-choi-seungbeom.pdf)
+
+- code [RIBBON: cost-effective and qos-aware deep learning model inference using a diverse pool of cloud computing instances SC'21](https://github.com/MachineLearningSystem/SC21_Ribbon) 
+
+  paper [RIBBON: cost-effective and qos-aware deep learning model inference using a diverse pool of cloud computing instances SC'21](https://dl.acm.org/doi/pdf/10.1145/3458817.3476168)
+
+- code [INFaaS: Automated Model-less Inference Serving ATC'21 ](https://github.com/MachineLearningSystem/INFaaS.git)
+
+  paper  [INFaaS: Automated Model-less Inference Serving ATC'21 ](https://www.usenix.org/system/files/atc21-romero.pdf)
+
+- code [Enable Simultaneous DNN Services Based on Deterministic Operator Overlap and Precise Latency Prediction SC'21](https://github.com/MachineLearningSystem/Abacus) 
+
+  paper [Enable Simultaneous DNN Services Based on Deterministic Operator Overlap and Precise Latency Prediction SC'21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9910118)
+
+
+- code [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up OSDI'20](https://github.com/MachineLearningSystem/clockwork) 
+
+  paper [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up OSDI'20](https://www.usenix.org/system/files/osdi20-gujarati.pdf)
+
+- code [Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving ATC'19 ](https://github.com/MachineLearningSystem/MArk-Project) 
+
+  paper [Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving ATC'19 ](https://www.usenix.org/system/files/atc19-zhang-chengliang.pdf)
+
+- code [Nexus: a GPU cluster engine for accelerating DNN-based video analysis SOSP'19 ](https://github.com/MachineLearningSystem/nexus) 
+
+  paper [Nexus: a GPU cluster engine for accelerating DNN-based video analysis SOSP'19 ](https://homes.cs.washington.edu/~arvind/papers/nexus.pdf)
+
+- code [Clipper:A low-latency prediction-serving system NSDI'17](https://github.com/ucbrise/clipper) 
+
+  paper [Clipper:A low-latency prediction-serving system NSDI'17](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf)
 
 
 ### MoE
