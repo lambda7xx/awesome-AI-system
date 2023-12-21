@@ -148,27 +148,45 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
   paper [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization OSDI'22](https://www.usenix.org/system/files/osdi22-unger.pdf)
 
-- [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://github.com/MachineLearningSystem/naspipe) ASPLOS'22
+- code [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://github.com/MachineLearningSystem/naspipe) ASPLOS'22
 
-- [Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://github.com/MachineLearningSystem/varuna) Eurosys'22 
+  paper [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://dl.acm.org/doi/pdf/10.1145/3503222.3507735)
+- code [Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://github.com/MachineLearningSystem/varuna) Eurosys'22 
 
-- [Megatron-LM](https://github.com/NVIDIA/Megatron-LM.git) SC'21
+  paper [Varuna: Scalable, Low-cost Training of Massive Deep Learning Models](https://dl.acm.org/doi/pdf/10.1145/3492321.3519584)
 
-- [Chimera: efficiently training large-scale neural networks with bidirectional pipelines](https://github.com/MachineLearningSystem/Chimera) SC'21 
+- code [Chimera: efficiently training large-scale neural networks with bidirectional pipelines SC'21 ](https://github.com/MachineLearningSystem/Chimera) 
+ 
+  paper [Chimera: efficiently training large-scale neural networks with bidirectional pipelines SC'21 ](https://dl.acm.org/doi/pdf/10.1145/3458817.3476145)
 
-- [Piper: Multidimensional Planner for DNN Parallelization](https://github.com/MachineLearningSystem/piper) NeurIPS'21
+- code [Piper: Multidimensional Planner for DNN Parallelization NeurIPS'21](https://github.com/MachineLearningSystem/piper) 
 
-- [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models](https://github.com/MachineLearningSystem/PipeTransformer.git) ICML'21
+  paper [Piper: Multidimensional Planner for DNN Parallelization NeurIPS'21](https://proceedings.neurips.cc/paper_files/paper/2021/file/d01eeca8b24321cd2fe89dd85b9beb51-Paper.pdf)
 
-- [DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training](https://github.com/MachineLearningSystem/DAPPLE) PPOPP'21
+- code [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models  ICML'21](https://github.com/MachineLearningSystem/PipeTransformer.git)
 
-- [TeraPipe:Large-Scale Language Modeling with Pipeline Parallelism](https://github.com/MachineLearningSystem/terapipe) ICML'21 
+  paper [PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models  ICML'21](http://proceedings.mlr.press/v139/he21a/he21a.pdf)
 
-- [PipeDream: Pipeline Parallelism for DNN Training](https://github.com/MachineLearningSystem/pipedream.git) SOSP'19
+- code [DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training PPOPP'21](https://github.com/MachineLearningSystem/DAPPLE)
 
-- [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
+  paper [DAPPLE: An Efficient Pipelined Data Parallel Approach for Large Models Training PPOPP'21](https://dl.acm.org/doi/pdf/10.1145/3437801.3441593)
 
-- [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak) 
+- code [TeraPipe:Large-Scale Language Modeling with Pipeline Parallelism ICML'21 ](https://github.com/MachineLearningSystem/terapipe) 
+
+  paper [TeraPipe:Large-Scale Language Modeling with Pipeline Parallelism ICML'21 ](https://danyangzhuo.com/papers/ICML21-TeraPipe.pdf)
+
+- code [PipeDream: Pipeline Parallelism for DNN Training SOSP'19 ](https://github.com/MachineLearningSystem/pipedream.git) 
+
+  paper [PipeDream: Pipeline Parallelism for DNN Training SOSP'19 ](https://people.eecs.berkeley.edu/~matei/papers/2019/sosp_pipedream.pdf)
+
+- code [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://github.com/MachineLearningSystem/swarm)
+ 
+
+  paper [SWARM Parallelism: Training Large Models Can Be Surprisingly Communication-Efficient](https://proceedings.mlr.press/v202/ryabinin23a/ryabinin23a.pdf)
+
+- code [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://github.com/MachineLearningSystem/Merak)
+
+  paper [Merak: An Efficient Distributed DNN Training Framework with Automated 3D Parallelism for Giant Foundation Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10049507)
 
 - [awesome distributed deep learning](https://github.com/MachineLearningSystem/Awesome-Distributed-Deep-Learning.git)
 - [awsome parallelism](https://github.com/MachineLearningSystem/awesome-Auto-Parallelism)
