@@ -193,14 +193,22 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### Training 
 
-- [ModelKeeper: Accelerating DNN Training via Automated Training Warmup](https://github.com/MachineLearningSystem/ModelKeeper) NSDI'23
+- code [ModelKeeper: Accelerating DNN Training via Automated Training Warmup NSDI'23](https://github.com/MachineLearningSystem/ModelKeeper) 
+
+  paper [ModelKeeper: Accelerating DNN Training via Automated Training Warmup NSDI'23](https://www.usenix.org/system/files/nsdi23-lai-fan.pdf)
 
 
-- [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training SC'22](https://github.com/MachineLearningSystem/sc22-ae-big_model) 
+- code [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training SC'22](https://github.com/MachineLearningSystem/sc22-ae-big_model) 
 
-- [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}](https://github.com/MachineLearningSystem/EasyParallelLibrary) ATC'22
+  paper  [STRONGHOLD: Fast and Affordable Billion-scale Deep Learning Model Training SC'22](https://dl.acm.org/doi/pdf/10.5555/3571885.3571979)
 
-- [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server](https://github.com/MachineLearningSystem/geeps) Eurosys'16
+- code [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}ATC'22 ](https://github.com/MachineLearningSystem/EasyParallelLibrary) 
+
+  paper [Whale: Efficient Giant Model Training over Heterogeneous {GPUs}ATC'22 ](https://www.usenix.org/system/files/atc22-jia-xianyan.pdf)
+
+- code [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server Eurosys'16](https://github.com/MachineLearningSystem/geeps) 
+
+  paper [GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server Eurosys'16](https://www.pdl.cmu.edu/PDL-FTP/CloudComputing/GeePS-cui-eurosys16.pdf)
 
 
 ### Communication
