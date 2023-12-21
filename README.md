@@ -305,18 +305,29 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### MoE
-- [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Static and Dynamic Parallelization ATC'23](https://github.com/MachineLearningSystem/23ATC-SmartMoE-AE)
-- [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts](https://github.com/stanford-futuredata/megablocks) MLSYS'23 
-- [Tutel: Adaptive Mixture-of-Experts at Scale](https://github.com/MachineLearningSystem/tutel-MOE) MLSYS'23
+- code [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Static and Dynamic Parallelization ATC'23](https://github.com/MachineLearningSystem/23ATC-SmartMoE-AE)
 
-- [FastMoE: A Fast Mixture-of-Expert Training System](https://github.com/MachineLearningSystem/fastmoe-thu) PPOPP'22
+  paper [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Static and Dynamic Parallelization ATC'23](https://www.usenix.org/system/files/atc23-zhai.pdf)
+- code [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts MLSYS'23 ](https://github.com/stanford-futuredata/megablocks) 
+
+  paper [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts MLSYS'23 ](https://arxiv.org/pdf/2211.15841.pdf)
+  
+- code [Tutel: Adaptive Mixture-of-Experts at Scale MLSYS'23](https://github.com/MachineLearningSystem/tutel-MOE) 
+
+  paper [Tutel: Adaptive Mixture-of-Experts at Scale MLSYS'23](https://arxiv.org/pdf/2206.03382.pdf)
+
+- code [FastMoE: A Fast Mixture-of-Expert Training System PPOPP'22](https://github.com/MachineLearningSystem/fastmoe-thu) 
+
+  paper [FastMoE: A Fast Mixture-of-Expert Training System PPOPP'22](https://dl.acm.org/doi/pdf/10.1145/3503221.3508418)
 
 - [awesome MoE](https://github.com/MachineLearningSystem/awesome-mixture-of-experts)
 
 - [MoE Paper](https://github.com/MachineLearningSystem/Awesome-Mixture-of-Experts-Papers)
 
-- [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers](https://github.com/MachineLearningSystem/AutoMoE) 
+- code [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers ICLR'23](https://github.com/MachineLearningSystem/AutoMoE) 
 
+
+  paper [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers ICLR'23](https://openreview.net/pdf?id=3yEIFSMwKBC)
 ### GPU Cluster Management
 - [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/Lucid) ASPLOS'23
 
