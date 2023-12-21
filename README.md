@@ -212,12 +212,21 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### Communication
-- [ARK: GPU-driven Code Execution for Distributed Deep Learning NSDI'23](https://github.com/MachineLearningSystem/23NSDI-arkwo)
-- [TopoOpt: Optimizing the Network Topology for Distributed DNN Training](https://github.com/MachineLearningSystem/TopoOpt) NSDI'23 
+- code [ARK: GPU-driven Code Execution for Distributed Deep Learning NSDI'23](https://github.com/MachineLearningSystem/23NSDI-arkwo)
 
-- [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://github.com/parasailteam/coconet.git) ASPLOS'22 
+  paper [ARK: GPU-driven Code Execution for Distributed Deep Learning NSDI'23](https://www.usenix.org/system/files/nsdi23-hwang.pdf)
 
-- [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning SIGCOMM'21 ](https://github.com/MachineLearningSystem/omnireduce.git) 
+- code [TopoOpt: Optimizing the Network Topology for Distributed DNN Training NSDI'23 ](https://github.com/MachineLearningSystem/TopoOpt) 
+
+   paper [TopoOpt: Optimizing the Network Topology for Distributed DNN Training NSDI'23 ](https://www.usenix.org/system/files/nsdi23-wang-weiyang.pdf)
+
+- code [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads ASPLOS'22 ](https://github.com/parasailteam/coconet.git) 
+
+  paper [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads ASPLOS'22 ](https://dl.acm.org/doi/pdf/10.1145/3503222.3507778)
+
+- code [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning SIGCOMM'21 ](https://github.com/MachineLearningSystem/omnireduce.git) 
+
+  paper [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning SIGCOMM'21 ](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904)
 
 ### Serving-Inference
 
