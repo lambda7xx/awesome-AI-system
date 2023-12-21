@@ -328,21 +328,36 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
   paper [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers ICLR'23](https://openreview.net/pdf?id=3yEIFSMwKBC)
+
 ### GPU Cluster Management
-- [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/Lucid) ASPLOS'23
+- code [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs ASPLOS'23](https://github.com/MachineLearningSystem/Lucid) 
 
-- [Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning](https://github.com/MachineLearningSystem/shockwave) NSDI'23
+  paper [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs ASPLOS'23](https://dl.acm.org/doi/pdf/10.1145/3575693.3575705)
 
-- [Synergy : Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters](https://github.com/MachineLearningSystem/synergy.git) OSDI'22
+- code [Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning NSDI'23](https://github.com/MachineLearningSystem/shockwave)  
 
-- [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://github.com/MachineLearningSystem/adaptdl) OSDI'21
+  paper [Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning NSDI'23](https://www.usenix.org/system/files/nsdi23-zheng.pdf)
 
-- [Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads](https://github.com/MachineLearningSystem/gavel) OSDI'20
+- code [Synergy : Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters OSDI'22](https://github.com/MachineLearningSystem/synergy.git) 
 
-- [Tiresias -- A GPU Cluster Manager for Distributed Deep Learning Training without complete job information](https://github.com/MachineLearningSystem/Tiresias) NSDI'19
+  paper [Synergy : Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters OSDI'22](https://www.usenix.org/system/files/osdi22-mohan.pdf)
 
-- [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs](https://github.com/MachineLearningSystem/ChronusArtifact) SOCC'21 
+- code [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning OSDI'21](https://github.com/MachineLearningSystem/adaptdl) 
 
+  paper [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning OSDI'21](https://www.usenix.org/system/files/osdi21-qiao.pdf)
+
+- code [Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads OSDI'20](https://github.com/MachineLearningSystem/gavel)
+
+  paper [Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads OSDI'20](https://www.usenix.org/system/files/osdi20-narayanan_deepak.pdf)
+
+- code [Tiresias -- A GPU Cluster Manager for Distributed Deep Learning Training without complete job information  NSDI'19](https://github.com/MachineLearningSystem/Tiresias)
+
+
+  paper [Tiresias -- A GPU Cluster Manager for Distributed Deep Learning Training without complete job information  NSDI'19](https://www.usenix.org/system/files/nsdi19-gu.pdf)
+
+- code [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs SOCC'21 ](https://github.com/MachineLearningSystem/ChronusArtifact) 
+
+  paper [Chronus: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs SOCC'21 ](https://yezhisheng.me/publication/chronus/chronus_preprint.pdf)
 
 - [awesome DL scheduler](https://github.com/MachineLearningSystem/Awesome-DL-Scheduling-Papers.git)
 
