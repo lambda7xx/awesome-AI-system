@@ -33,6 +33,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### LLM Serving
 
+- paper [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf)
+
 - code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
   
   paper [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://www.vldb.org/pvldb/vol17/p211-xia.pdf)
@@ -320,14 +322,16 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
   paper [FastMoE: A Fast Mixture-of-Expert Training System PPOPP'22](https://dl.acm.org/doi/pdf/10.1145/3503221.3508418)
 
-- [awesome MoE](https://github.com/MachineLearningSystem/awesome-mixture-of-experts)
-
-- [MoE Paper](https://github.com/MachineLearningSystem/Awesome-Mixture-of-Experts-Papers)
-
 - code [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers ICLR'23](https://github.com/MachineLearningSystem/AutoMoE) 
 
 
   paper [AutoMoE: Neural Architecture Search for Efficient Sparsely Activated Transformers ICLR'23](https://openreview.net/pdf?id=3yEIFSMwKBC)
+
+- [awesome MoE](https://github.com/MachineLearningSystem/awesome-mixture-of-experts)
+
+- [MoE Paper](https://github.com/MachineLearningSystem/Awesome-Mixture-of-Experts-Papers)
+
+
 
 ### GPU Cluster Management
 - code [Lucid: A Non-Intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs ASPLOS'23](https://github.com/MachineLearningSystem/Lucid) 
@@ -393,74 +397,145 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### Optimization
-- [GLake: optimizing GPU memory management and IO transmission ASPLOS'24](https://github.com/MachineLearningSystem/24ASPLOS-glake)
-- [Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow](https://github.com/MachineLearningSystem/spada-sim) ASPLOS'23 
+- code [GLake: optimizing GPU memory management and IO transmission ASPLOS'24](https://github.com/MachineLearningSystem/24ASPLOS-glake)
+- code [Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow ASPLOS'23 ](https://github.com/MachineLearningSystem/spada-sim) 
 
-- [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters](https://github.com/MachineLearningSystem/socc22-miso) SOCC'22 
+  paper [Spada: Accelerating Sparse Matrix Multiplication with Adaptive Dataflow ASPLOS'23 ](https://dl.acm.org/doi/pdf/10.1145/3575693.3575706)
 
-- [Accpar: Tensor partitioning for heterogeneous deep learning accelerators](https://github.com/MachineLearningSystem/AccPar) HPCA'20 
+- code [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters SOCC'22 ](https://github.com/MachineLearningSystem/socc22-miso) 
+  
+  paper [MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters SOCC'22 ](https://dspace.mit.edu/bitstream/handle/1721.1/147687/3542929.3563510.pdf?sequence=1&isAllowed=y)
+
+- code [Accpar: Tensor partitioning for heterogeneous deep learning accelerators HPCA'20 ](https://github.com/MachineLearningSystem/AccPar) 
+
+  paper [Accpar: Tensor partitioning for heterogeneous deep learning accelerators HPCA'20 ](http://alchem.usc.edu/portal/static/download/accpar.pdf)
 
 
-- [Hidet: Task Mapping Programming Paradigm for Deep Learning Tensor Programs](https://github.com/MachineLearningSystem/hidet) ASPLOS'23
+- code [Hidet: Task Mapping Programming Paradigm for Deep Learning Tensor Programs ASPLOS'23](https://github.com/MachineLearningSystem/hidet) 
+  
+  paper [Hidet: Task Mapping Programming Paradigm for Deep Learning Tensor Programs ASPLOS'23](https://dl.acm.org/doi/pdf/10.1145/3575693.3575702)
 
-- [iGniter: Interference-Aware GPU Resource Provisioning for Predictable DNN Inference in the Cloud](https://github.com/MachineLearningSystem/igniter) TPDS'22 
+- code [iGniter: Interference-Aware GPU Resource Provisioning for Predictable DNN Inference in the Cloud TPDS'22 ](https://github.com/MachineLearningSystem/igniter) 
 
-- [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](https://github.com/MachineLearningSystem/CheckFreq) FAST'22
+   paper [iGniter: Interference-Aware GPU Resource Provisioning for Predictable DNN Inference in the Cloud TPDS'22 ](https://arxiv.org/pdf/2211.01713.pdf)
 
-- [Efficient Quantized Sparse Matrix Operations on Tensor Cores](https://github.com/MachineLearningSystem/Magicube) SC'22
+- code [CheckFreq: Frequent, Fine-Grained DNN Checkpointing FAST'22](https://github.com/MachineLearningSystem/CheckFreq) 
 
-- [Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers](https://github.com/MachineLearningSystem/harmony) VLDB'22
+  paper [CheckFreq: Frequent, Fine-Grained DNN Checkpointing FAST'22](https://www.usenix.org/system/files/fast21-mohan.pdf)
 
-- [Pets](https://github.com/MachineLearningSystem/PetS-ATC-2022) ATC'22 
+- code [Efficient Quantized Sparse Matrix Operations on Tensor Cores  SC'22](https://github.com/MachineLearningSystem/Magicube)
 
-- [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://github.com/MachineLearningSystem/pet-osdi21-ae) OSDI'21
+  paper [Efficient Quantized Sparse Matrix Operations on Tensor Cores  SC'22](https://dl.acm.org/doi/pdf/10.5555/3571885.3571934)
 
-- [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Cores](https://github.com/MachineLearningSystem/APNN-TC) SC'21
+- code [Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers VLDB'22](https://github.com/MachineLearningSystem/harmony) 
 
-- [iGUARD](https://github.com/MachineLearningSystem/iGUARD.git) SOSP'21
+   paper [Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers VLDB'22](https://vldb.org/pvldb/vol15/p2747-li.pdf)
 
-- [Fluid: Resource-Aware Hyperparameter Tuning Engine](https://github.com/MachineLearningSystem/Fluid) MLSYS'21
-- [Baechi: Fast Device Placement on Machine Learning Graphs ](https://github.com/MachineLearningSystem/baechi) SOCC'20 
+- code [PetS: A Unified Framework for Parameter-Efficient Transformers Serving ATC'22  ](https://github.com/MachineLearningSystem/PetS-ATC-2022)
 
-- [Dynamic Parameter Allocation in Parameter Servers](https://github.com/MachineLearningSystem/AdaPS) VLDB'20 
+  paper [PetS: A Unified Framework for Parameter-Efficient Transformers Serving ATC'22  ](https://www.usenix.org/system/files/atc22-zhou-zhe.pdf)
 
-- [Data Movement Is All You Need: A Case Study on Optimizing Transformers](https://github.com/MachineLearningSystem/substation) 
+- code [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections OSDI'21](https://github.com/MachineLearningSystem/pet-osdi21-ae) 
+
+  paper [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections OSDI'21](https://www.usenix.org/system/files/osdi21-wang-haojie.pdf)
+
+- code [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Core SC'21](https://github.com/MachineLearningSystem/APNN-TC) 
+
+  paper [APNN-TC: Accelerating Arbitrary Precision Neural Networks on Ampere GPU Tensor Core SC'21](https://dl.acm.org/doi/pdf/10.1145/3458817.3476157)
+
+- code [iGUARD: In-GPU Advanced Race Detection SOSP'21](https://github.com/MachineLearningSystem/iGUARD.git) 
+
+  paper [iGUARD: In-GPU Advanced Race Detection SOSP'21](https://dl.acm.org/doi/pdf/10.1145/3477132.3483545)
+
+- code [Fluid: Resource-Aware Hyperparameter Tuning Engine MLSYS'21](https://github.com/MachineLearningSystem/Fluid) 
+
+  paper [Fluid: Resource-Aware Hyperparameter Tuning Engine MLSYS'21](https://www.mosharaf.com/wp-content/uploads/fluid-mlsys21.pdf)
+
+- code [Baechi: Fast Device Placement on Machine Learning Graphs SOCC'20 ](https://github.com/MachineLearningSystem/baechi)
+
+  paper [Baechi: Fast Device Placement on Machine Learning Graphs SOCC'20 ](https://dprg.cs.uiuc.edu/data/files/2020/socc20-final352.pdf)
+
+- code [Dynamic Parameter Allocation in Parameter Servers VLDB'20 ](https://github.com/MachineLearningSystem/AdaPS) 
+
+  paper [Dynamic Parameter Allocation in Parameter Servers VLDB'20 ](https://www.vldb.org/pvldb/vol13/p1877-renz-wieland.pdf)
+
+- code [Data Movement Is All You Need: A Case Study on Optimizing Transformers](https://github.com/MachineLearningSystem/substation) 
+ paper [Data Movement Is All You Need: A Case Study on Optimizing Transformers](https://htor.inf.ethz.ch/publications/img/data_movement_is_all_you_need.pdf)
 
 ### GNN
-- [gSampler: Efficient GPU-Based Graph Sampling for Graph Learning SOSP'23](https://github.com/MachineLearningSystem/23SOSP-gSampler)
-- [Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training ATC'23](https://github.com/MachineLearningSystem/ATC23-Legion)
-- [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs ATC'23](https://github.com/MachineLearningSystem/ATC23-TCGNN-Pytorch)
-- [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://github.com/MachineLearningSystem/MGG-OSDI23-AE) OSDI'23
-- [COGNN](https://github.com/MachineLearningSystem/CoGNN_info_for_SC22.git) SC'22
-- [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs](https://github.com/MachineLearningSystem/TCGNN-Pytorch)
-- [GNNAdvisor: An Efficient Runtime System for GNN Acceleration on GPUs](https://github.com/MachineLearningSystem/OSDI21_AE-GNN) OSDI'21
+- code [gSampler: Efficient GPU-Based Graph Sampling for Graph Learning SOSP'23](https://github.com/MachineLearningSystem/23SOSP-gSampler)
+   
+   paper [gSampler: Efficient GPU-Based Graph Sampling for Graph Learning SOSP'23](https://dl.acm.org/doi/pdf/10.1145/3600006.3613168)
 
-- [Marius: Learning Massive Graph Embeddings on a Single Machine](https://github.com/MachineLearningSystem/marius) OSDI'21
+- code [Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training ATC'23](https://github.com/MachineLearningSystem/ATC23-Legion)
 
-- [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](https://github.com/MachineLearningSystem/dorylus) OSDI'21 
+  paper [Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training ATC'23](https://www.usenix.org/system/files/atc23-sun.pdf)
 
-- [BNS-GCN: Efficient Full-Graph Training of Graph Convolutional Networks with Partition-Parallelism and Random Boundary Node Sampling](https://github.com/MachineLearningSystem/BNS-GCN) MLSYS'22 
+- code [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs ATC'23](https://github.com/MachineLearningSystem/ATC23-TCGNN-Pytorch)
 
-- [Accelerating Large Scale Real-Time GNN Inference Using Channel Pruning](https://github.com/MachineLearningSystem/GCNP) VLDB'21 
-- [Reducing Communication in Graph Neural Network Training](https://github.com/MachineLearningSystem/CAGNET) SC'20 
+  paper [TC-GNN: Accelerating Sparse Graph Neural Network Computation Via Dense Tensor Core on GPUs ATC'23](https://www.usenix.org/system/files/atc23-wang-yuke.pdf)
+
+- code [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms OSDI'23](https://github.com/MachineLearningSystem/MGG-OSDI23-AE) 
+
+  paper [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms OSDI'23](https://www.usenix.org/system/files/osdi23-wang-yuke.pdf)
+
+- code [CoGNN: Efficient Scheduling for Concurrent GNN Training on GPUs SC'22](https://github.com/MachineLearningSystem/CoGNN_info_for_SC22.git) 
+
+  paper [CoGNN: Efficient Scheduling for Concurrent GNN Training on GPUs SC'22](https://dl.acm.org/doi/pdf/10.5555/3571885.3571936)
+
+- code [GNNAdvisor: An Efficient Runtime System for GNN Acceleration on GPUs OSDI'21](https://github.com/MachineLearningSystem/OSDI21_AE-GNN) 
+ 
+  paper  [GNNAdvisor: An Efficient Runtime System for GNN Acceleration on GPUs OSDI'21](https://www.usenix.org/system/files/osdi21-wang-yuke.pdf)
+
+- code [Marius: Learning Massive Graph Embeddings on a Single Machine OSDI'21](https://github.com/MachineLearningSystem/marius) 
+  
+  paper [Marius: Learning Massive Graph Embeddings on a Single Machine OSDI'21](https://www.usenix.org/system/files/osdi21-mohoney.pdf)
+
+- code [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads OSDI'21](https://github.com/MachineLearningSystem/dorylus)  
+ 
+  paper [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads OSDI'21](https://www.usenix.org/system/files/osdi21-thorpe.pdf)
+
+- code [BNS-GCN: Efficient Full-Graph Training of Graph Convolutional Networks with Partition-Parallelism and Random Boundary Node Sampling MLSYS'22 ](https://github.com/MachineLearningSystem/BNS-GCN)
+
+  paper  [BNS-GCN: Efficient Full-Graph Training of Graph Convolutional Networks with Partition-Parallelism and Random Boundary Node Sampling MLSYS'22 ](https://arxiv.org/pdf/2203.10983.pdf)
+
+- code [Accelerating Large Scale Real-Time GNN Inference Using Channel Pruning  VLDB'21 ](https://github.com/MachineLearningSystem/GCNP)
+
+  paper [Accelerating Large Scale Real-Time GNN Inference Using Channel Pruning  VLDB'21 ](http://vldb.org/pvldb/vol14/p1597-zhou.pdf)
+
+- code [Reducing Communication in Graph Neural Network Training SC'20 ](https://github.com/MachineLearningSystem/CAGNET) 
+
+  paper  [Reducing Communication in Graph Neural Network Training SC'20 ](https://dl.acm.org/doi/pdf/10.5555/3433701.3433794)
 
 - [awesome GNN](https://github.com/chwan1016/awesome-gnn-systems)
 
 ### Fine-Tune
--  [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) ATC'21
+-  code [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism ATC'21](https://github.com/MachineLearningSystem/FTPipe-ATC21-Finetune.git) 
+
+   paper [Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism ATC'21](https://www.usenix.org/system/files/atc21-eliad.pdf)
 
 ### Energy
 
-- [Zeus: Understanding and Optimizing {GPU} Energy Consumption of {DNN} Training NSDI'23](https://github.com/MachineLearningSystem/Zeus) 
+- code [Zeus: Understanding and Optimizing {GPU} Energy Consumption of {DNN} Training NSDI'23](https://github.com/MachineLearningSystem/Zeus)
 
-- [EnvPipe: Performance-preserving DNN Training Framework for Saving Energy ATC'23](https://github.com/MachineLearningSystem/23ATC-EnvPipe)
+  paper [Zeus: Understanding and Optimizing {GPU} Energy Consumption of {DNN} Training NSDI'23](https://www.usenix.org/system/files/nsdi23-you.pdf)
+
+- code [EnvPipe: Performance-preserving DNN Training Framework for Saving Energy ATC'23](https://github.com/MachineLearningSystem/23ATC-EnvPipe)
+
+  paper  [EnvPipe: Performance-preserving DNN Training Framework for Saving Energy ATC'23](https://www.usenix.org/system/files/atc23-choi.pdf)
 
 ### Misc 
-- [Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://github.com/MachineLearningSystem/gpu_variability_sc22_artifact) SC'22 
+- code [Characterizing Variability in Large-Scale, Accelerator-Rich Systems  SC'22 ](https://github.com/MachineLearningSystem/gpu_variability_sc22_artifact)
 
-- [Prediction of the Resource Consumption of Distributed Deep Learning Systems](https://github.com/MachineLearningSystem/Driple) SIGMETRICS'22 
+  paper [Characterizing Variability in Large-Scale, Accelerator-Rich Systems  SC'22 ](https://dl.acm.org/doi/pdf/10.5555/3571885.3571971)
 
-- [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications](https://github.com/MachineLearningSystem/HPCA22_SuperCloud) HPCA'22
+- code [Prediction of the Resource Consumption of Distributed Deep Learning Systems SIGMETRICS'22 ](https://github.com/MachineLearningSystem/Driple) 
+
+  paper [Prediction of the Resource Consumption of Distributed Deep Learning Systems SIGMETRICS'22 ](https://dl.acm.org/doi/pdf/10.1145/3530895)
+
+- code [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications HPCA'22](https://github.com/MachineLearningSystem/HPCA22_SuperCloud)  
+
+  paper [AI-Enabling Workloads on Large-Scale GPU-Accelerated System: Characterization, Opportunities, and Implications HPCA'22](https://baolin-li.netlify.app/uploads/HPCA_2022_MIT_SuperCloud.pdf)
 
 
 
