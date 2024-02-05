@@ -111,6 +111,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   paper [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://www.vldb.org/pvldb/vol15/p312-miao.pdf)
 
 ### Parallellism Training
+- code [zero-bubble-pipeline-parallelism](https://github.com/sail-sg/zero-bubble-pipeline-parallelism)
+  
+  paper [NEAR ZERO BUBBLE PIPELINE PARALLELISM ICLR'24](https://openreview.net/pdf?id=tuzTN0eIO5 )
 - code [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
   
   paper [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://assets.amazon.science/33/e5/023653cb46d9abb4baa576c571b3/dynapipe-optimizing-multi-task-training-through-dynamic-pipelines.pdf)
