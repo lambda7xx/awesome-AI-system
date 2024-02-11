@@ -32,7 +32,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - code [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
 
 ### LLM Serving
-
+- code [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference PPOPP'24](https://github.com/MachineLearningSystem/24PPOPP-Liger)
 - paper [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf)
   code [Efficiently Programming Large Language Models using SGLang](https://github.com/sgl-project/sglang.git)
 
