@@ -30,8 +30,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Name | Github|
 |:-----:|:-----:|
-| xFasterTransformer |  [![Star](https://github.com/intel/xFasterTransformer)](https://github.com/intel/xFasterTransformer)|
+| xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg?style=social&label=Star)](https://github.com/intel/xFasterTransformer)|
 
+<!-- [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)| -->
 <!-- 
 - [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
 - [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
