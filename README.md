@@ -46,6 +46,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 |Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
 |Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Dec, 2023 | 
 | Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24vldb-flash-llm.svg)](https://github.com/MachineLearningSystem/24vldb-flash-llm.git) | - | VLDB'24 | 
+｜PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) ｜ [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer)｜ - | Dec,2023 |
+
 
 - code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
   
