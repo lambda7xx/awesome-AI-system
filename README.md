@@ -37,8 +37,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
 
 ### LLM Serving
-
+- code [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference PPOPP'24](https://github.com/MachineLearningSystem/24PPOPP-Liger)
 - paper [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf)
+  code [Efficiently Programming Large Language Models using SGLang](https://github.com/sgl-project/sglang.git)
 
 - code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
   
@@ -115,6 +116,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   paper [HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework VLDB'22](https://www.vldb.org/pvldb/vol15/p312-miao.pdf)
 
 ### Parallellism Training
+- code [zero-bubble-pipeline-parallelism](https://github.com/sail-sg/zero-bubble-pipeline-parallelism)
+  
+  paper [NEAR ZERO BUBBLE PIPELINE PARALLELISM ICLR'24](https://openreview.net/pdf?id=tuzTN0eIO5 )
 - code [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://github.com/MachineLearningSystem/24Eurosys-optimizing-multitask-training-through-dynamic-pipelines)
   
   paper [ DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines Eurosys'24](https://assets.amazon.science/33/e5/023653cb46d9abb4baa576c571b3/dynapipe-optimizing-multi-task-training-through-dynamic-pipelines.pdf)
