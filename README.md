@@ -28,7 +28,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### LLM Serving Framework
 
-| Name | Github|
+| Title | Github|
 |:-----:|:-----:|
 | MLC LLM| [![Star](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg)](https://github.com/mlc-ai/mlc-llm/) |
 | TensorRT-LLM | [![Star](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg)](https://github.com/NVIDIA/TensorRT-LLM.git) |
@@ -53,7 +53,10 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
 
 ### LLM Platform
-- code [FastChat](https://github.com/lm-sys/FastChat.git)
+| Title | Github|
+|:-----:|:-----:|
+| FastChat |  [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)|
+
 
 ### LLM FineTune
 - code [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://github.com/S-LoRA/S-LoRA.git)
