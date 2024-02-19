@@ -55,7 +55,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ### LLM Platform
 
 | Title | Github| Website
-|:-----:|:-----:||:-----:|
+|:-----:|:-----:|:-----:|
 | FastChat | [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)| [![Website](https://img.shields.io/badge/Website-9cf)](https://chat.lmsys.org/) |
 
 
