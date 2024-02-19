@@ -30,7 +30,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Name | Github|
 |:-----:|:-----:|
-| xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg?style=social&label=Star)](https://github.com/intel/xFasterTransformer)|
+| xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg)](https://github.com/intel/xFasterTransformer)|
 
 <!-- [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)| -->
 <!-- 
