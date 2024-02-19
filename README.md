@@ -30,9 +30,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Name | Github|
 |:-----:|:-----:|
-| xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg)](https://github.com/intel/xFasterTransformer)|
+| MLC LLM| [![Star](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg)](https://github.com/mlc-ai/mlc-llm/) |
 | TensorRT-LLM | [![Star](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg)](https://github.com/NVIDIA/TensorRT-LLM.git) |
-| CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git) |
+| xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg)](https://github.com/intel/xFasterTransformer)|
+
+| CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git) |c
+
 
 <!-- [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)| -->
 <!-- 
@@ -45,25 +48,10 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
 |Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Dec, 2023 | 
-| Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24vldb-flash-llm.svg)](https://github.com/MachineLearningSystem/24vldb-flash-llm.git) | - | VLDB'24 | 
-｜PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) ｜ [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer)｜ - | Dec,2023 |
-
-
-- code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
-  
-  paper [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://www.vldb.org/pvldb/vol17/p211-xia.pdf)
-
-- code [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://github.com/MachineLearningSystem/PowerInfer.git)
-  
-  paper [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf)
-
-- code [vLLM System(Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23)](https://github.com/vllm-project/vllm)
-
-  paper [Efficient Memory Management for Large Language Model Serving with PagedAttention SOSP'23](https://arxiv.org/pdf/2309.06180.pdf)
-
-- code [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://github.com/flexflow/FlexFlow/tree/inference)
-
-  paper [SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification 23arxiv](https://arxiv.org/abs/2305.09781.pdf)
+| Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/AlibabaResearch/flash-llm.svg)](https://github.com/AlibabaResearch/flash-llm) | - | VLDB'24 |
+| PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | Dec, 2023 |
+| Efficient Memory Management for Large Language Model Serving with PagedAttention| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2309.06180.pdf) | [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg)](https://github.com/vllm-project/vllm) | - | SOSP'23 |
+| SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
 
 ### LLM Platform
 - code [FastChat](https://github.com/lm-sys/FastChat.git)
