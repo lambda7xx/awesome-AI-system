@@ -27,9 +27,14 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Paper-Code
 
 ### LLM Serving Framework
-- code [xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)
-- code [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
-- code [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git)
+
+| Name | Github|
+|:-----:|:-----:|
+| xFasterTransformer |  [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)|
+
+<!-- 
+- [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
+- [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
 
 ### LLM Serving
 
