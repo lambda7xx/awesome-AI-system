@@ -32,7 +32,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 |:-----:|:-----:|
 | xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg)](https://github.com/intel/xFasterTransformer)|
 | TensorRT-LLM | [![Star](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg)](https://github.com/NVIDIA/TensorRT-LLM.git) |
-| CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git)|
+| CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git) |
 
 <!-- [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)| -->
 <!-- 
@@ -40,9 +40,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
 
 ### LLM Serving
-- code [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference PPOPP'24](https://github.com/MachineLearningSystem/24PPOPP-Liger)
-- paper [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf)
-  code [Efficiently Programming Large Language Models using SGLang](https://github.com/sgl-project/sglang.git)
+
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
+|Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Dec, 2023 | 
+| Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24vldb-flash-llm.svg)](https://github.com/MachineLearningSystem/24vldb-flash-llm.git) | - | VLDB'24 | 
 
 - code [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity vldb'24](https://github.com/MachineLearningSystem/24vldb-flash-llm)
   
