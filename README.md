@@ -30,7 +30,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Name | Github|
 |:-----:|:-----:|
-| xFasterTransformer |  [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)|
+| xFasterTransformer |  [![Star](https://github.com/intel/xFasterTransformer)](https://github.com/intel/xFasterTransformer)|
 
 <!-- 
 - [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
