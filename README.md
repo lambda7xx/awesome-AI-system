@@ -7,7 +7,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [LLM Platform](#LLM-Platform)
-  - [LLM FineTune](#LLM-FineTune)
+  - [LORA](#LORA)
   - [Fancy LLM](#Fancy-LLM)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -61,14 +61,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | FastChat | [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)| [![Website](https://img.shields.io/badge/Website-9cf)](https://chat.lmsys.org/) |
 
 
-### LLM FineTune
+### LORA
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | S-LoRA: Serving Thousands of Concurrent LoRA Adapters| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.03285.pdf) | [![Star](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg)](https://github.com/S-LoRA/S-LoRA.git) | - | Nov,2023 |
 | Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
-| Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
-
 
 ### Fancy LLM
 | Title | arXiv | Github| WebSite | Pub. & Date
