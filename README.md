@@ -5,9 +5,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [Paper-Code](#paper-code)
   - [LLM Serving Framework](#llm-serving-framework)
+  - [LLM Evaluation Platform](#LLM-Platform)
   - [LLM Inference(System Side)](#LLM-System-Side)
   - [LLM Inference(AI Side)](#LLM-AI-Side)
-  - [LLM Platform](#LLM-Platform)
   - [LoRA](#LoRA)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -36,10 +36,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git)|
 
 
-<!-- [![Star](xFasterTransformer(CPU Side)](https://github.com/intel/xFasterTransformer)| -->
-<!-- 
-- [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
-- [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
+### LLM Evaluation Platform
+
+| Title | Github| Website
+|:-----:|:-----:|:-----:|
+| FastChat | [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)| [![Website](https://img.shields.io/badge/Website-9cf)](https://chat.lmsys.org/) |
+
 
 ### LLM Inference (System Side)
 
@@ -63,11 +65,6 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Break the Sequential Dependency of LLM Inference Using Lookahead Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.02057) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding.svg)](https://github.com/hao-ai-lab/LookaheadDecoding.git) | - | Feb,2024 |
 | EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
 
-### LLM Platform
-
-| Title | Github| Website
-|:-----:|:-----:|:-----:|
-| FastChat | [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)| [![Website](https://img.shields.io/badge/Website-9cf)](https://chat.lmsys.org/) |
 
 
 ### LoRA
