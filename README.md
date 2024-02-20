@@ -46,11 +46,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Efficient Memory Management for Large Language Model Serving with PagedAttention| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2309.06180.pdf) | [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg)](https://github.com/vllm-project/vllm.git) | - | SOSP'23 |
+| SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
 |Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
 |Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Dec, 2023 | 
 | Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/AlibabaResearch/flash-llm.svg)](https://github.com/AlibabaResearch/flash-llm) | - | VLDB'24 |
 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | Dec, 2023 |
-| SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
+
 
 
 ### LLM Platform
@@ -61,34 +62,24 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### LLM FineTune
-- code [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://github.com/S-LoRA/S-LoRA.git)
 
-  paper [S-LoRA: Serving Thousands of Concurrent LoRA Adapters ](https://arxiv.org/pdf/2311.03285.pdf)
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| S-LoRA: Serving Thousands of Concurrent LoRA Adapters| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.03285.pdf) | [![Star](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg)](https://github.com/S-LoRA/S-LoRA.git) | - | Nov,2023 |
+| Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
+| Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
 
-- code [Punica: Serving multiple LoRA finetuned LLM as one](https://github.com/punica-ai/punica.git)
- 
-  paper [Punica: Serving multiple LoRA finetuned LLM as one](https://arxiv.org/pdf/2310.18547.pdf)
 
 ### Fancy LLM
-- code [LLMCompiler: An LLM Compiler for Parallel Function Calling](https://github.com/MachineLearningSystem/LLMCompiler)
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| LLMCompiler: An LLM Compiler for Parallel Function Calling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.04511.pdf) | [![Star](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler.svg)](https://github.com/SqueezeAILab/LLMCompiler.git) | - | Dec,2023 |
+| Mamba: Linear-Time Sequence Modeling with Selective State Spaces| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.00752.pdf) | [![Star](https://img.shields.io/github/stars/state-spaces/mamba.svg)](https://github.com/state-spaces/mamba.git) | - | Dec,2023 |
+| Teaching LLMs memory management for unbounded context| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08560) | [![Star](https://img.shields.io/github/stars/cpacker/MemGPT.svg)](https://github.com/cpacker/MemGPT.git) | - | Oct,2023 |
+| Break the Sequential Dependency of LLM Inference Using Lookahead Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.02057) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding.svg)](https://github.com/hao-ai-lab/LookaheadDecoding.git) | - | Feb,2024 |
+| EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
 
-  paper [LLMCompiler: An LLM Compiler for Parallel Function Calling 23arxiv](https://arxiv.org/pdf/2312.04511.pdf)
 
-- code [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://github.com/state-spaces/mamba/tree/main)
-  
-  paper [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752.pdf)
-
-- code [Teaching LLMs memory management for unbounded context arxiv](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
-
-  paper [MEMGPT: TOWARDS LLMS AS OPERATING SYSTEMS](https://github.com/MachineLearningSystem/23arxiv-MemGPT)
-
-- code [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding.git)
-  
-  blog [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://lmsys.org/blog/2023-11-21-lookahead-decoding/)
-
-- code [EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation](https://github.com/SafeAILab/EAGLE.git)
-
-  blog [EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation](https://sites.google.com/view/eagle-llm)
 
 ### Framework
 - code [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning OSDI'22](https://github.com/alpa-projects/alpa.git) 
