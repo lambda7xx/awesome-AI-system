@@ -7,7 +7,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Serving](#LLM-Serving)
   - [LLM Platform](#LLM-Platform)
-  - [LORA](#LORA)
+  - [LoRA](#LoRA)
   - [Fancy LLM](#Fancy-LLM)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -61,7 +61,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | FastChat | [![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg)](https://github.com/lm-sys/FastChat.git)| [![Website](https://img.shields.io/badge/Website-9cf)](https://chat.lmsys.org/) |
 
 
-### LORA
+### LoRA
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -71,6 +71,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ### Fancy LLM
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+| BitDelta: Your Fine-Tune May Only Be Worth One Bit| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10193) | [![Star](https://img.shields.io/github/stars/FasterDecoding/BitDelta.svg)](https://github.com/FasterDecoding/BitDelta.git) | - | Feb,2024 |
+| Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.10774) | [![Star](https://img.shields.io/github/stars/FasterDecoding/Medusa.svg)](https://github.com/FasterDecoding/Medusa.git) | - | Jan,2024 |
 | LLMCompiler: An LLM Compiler for Parallel Function Calling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.04511.pdf) | [![Star](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler.svg)](https://github.com/SqueezeAILab/LLMCompiler.git) | - | Dec,2023 |
 | Mamba: Linear-Time Sequence Modeling with Selective State Spaces| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.00752.pdf) | [![Star](https://img.shields.io/github/stars/state-spaces/mamba.svg)](https://github.com/state-spaces/mamba.git) | - | Dec,2023 |
 | Teaching LLMs memory management for unbounded context| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08560) | [![Star](https://img.shields.io/github/stars/cpacker/MemGPT.svg)](https://github.com/cpacker/MemGPT.git) | - | Oct,2023 |
