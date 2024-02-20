@@ -5,10 +5,10 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 - [Paper-Code](#paper-code)
   - [LLM Serving Framework](#llm-serving-framework)
-  - [LLM Serving](#LLM-Serving)
+  - [LLM Inference(System Side)](#LLM-System-Side)
+  - [LLM Inference(AI Side)](#LLM-AI-Side)
   - [LLM Platform](#LLM-Platform)
   - [LoRA](#LoRA)
-  - [Fancy LLM](#Fancy-LLM)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
   - [Training](#training)
@@ -41,7 +41,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [TensorRT-LLM by nvidia ](https://github.com/NVIDIA/TensorRT-LLM.git)
 - [CTranslate2(low latency)](https://github.com/OpenNMT/CTranslate2.git) -->
 
-### LLM Serving
+### LLM Inference (System Side)
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -52,7 +52,16 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/AlibabaResearch/flash-llm.svg)](https://github.com/AlibabaResearch/flash-llm) | - | VLDB'24 |
 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | Dec, 2023 |
 
-
+### LLM Inference(AI Side)
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| BitDelta: Your Fine-Tune May Only Be Worth One Bit| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10193) | [![Star](https://img.shields.io/github/stars/FasterDecoding/BitDelta.svg)](https://github.com/FasterDecoding/BitDelta.git) | - | Feb,2024 |
+| Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.10774) | [![Star](https://img.shields.io/github/stars/FasterDecoding/Medusa.svg)](https://github.com/FasterDecoding/Medusa.git) | - | Jan,2024 |
+| LLMCompiler: An LLM Compiler for Parallel Function Calling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.04511.pdf) | [![Star](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler.svg)](https://github.com/SqueezeAILab/LLMCompiler.git) | - | Dec,2023 |
+| Mamba: Linear-Time Sequence Modeling with Selective State Spaces| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.00752.pdf) | [![Star](https://img.shields.io/github/stars/state-spaces/mamba.svg)](https://github.com/state-spaces/mamba.git) | - | Dec,2023 |
+| Teaching LLMs memory management for unbounded context| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08560) | [![Star](https://img.shields.io/github/stars/cpacker/MemGPT.svg)](https://github.com/cpacker/MemGPT.git) | - | Oct,2023 |
+| Break the Sequential Dependency of LLM Inference Using Lookahead Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.02057) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding.svg)](https://github.com/hao-ai-lab/LookaheadDecoding.git) | - | Feb,2024 |
+| EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
 
 ### LLM Platform
 
@@ -68,16 +77,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | S-LoRA: Serving Thousands of Concurrent LoRA Adapters| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.03285.pdf) | [![Star](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg)](https://github.com/S-LoRA/S-LoRA.git) | - | Nov,2023 |
 | Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
 
-### Fancy LLM
-| Title | arXiv | Github| WebSite | Pub. & Date
-|:-----:|:-----:|:-----:|:-----:|:-----:|
-| BitDelta: Your Fine-Tune May Only Be Worth One Bit| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10193) | [![Star](https://img.shields.io/github/stars/FasterDecoding/BitDelta.svg)](https://github.com/FasterDecoding/BitDelta.git) | - | Feb,2024 |
-| Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.10774) | [![Star](https://img.shields.io/github/stars/FasterDecoding/Medusa.svg)](https://github.com/FasterDecoding/Medusa.git) | - | Jan,2024 |
-| LLMCompiler: An LLM Compiler for Parallel Function Calling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.04511.pdf) | [![Star](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler.svg)](https://github.com/SqueezeAILab/LLMCompiler.git) | - | Dec,2023 |
-| Mamba: Linear-Time Sequence Modeling with Selective State Spaces| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.00752.pdf) | [![Star](https://img.shields.io/github/stars/state-spaces/mamba.svg)](https://github.com/state-spaces/mamba.git) | - | Dec,2023 |
-| Teaching LLMs memory management for unbounded context| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08560) | [![Star](https://img.shields.io/github/stars/cpacker/MemGPT.svg)](https://github.com/cpacker/MemGPT.git) | - | Oct,2023 |
-| Break the Sequential Dependency of LLM Inference Using Lookahead Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.02057) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding.svg)](https://github.com/hao-ai-lab/LookaheadDecoding.git) | - | Feb,2024 |
-| EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
+
 
 
 
