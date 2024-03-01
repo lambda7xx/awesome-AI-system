@@ -4,15 +4,11 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ## Contents
 
 - [Paper-Code](#paper-code)
+  - [Researcher](#researcher)
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Evaluation Platform](#llm-evaluation-platform)
-<<<<<<< HEAD
-  - [LLM Inference System Side](#llm-inference-system-side)
-  - [LLM Inference AI Side](#llm-inference-ai-side)
-=======
   - [LLM Inference System Side)](#llm-inference-system-side)
   - [LLM Inference AI Side)](#llm-inference-ai-side)
->>>>>>> 77d918ce7a53c7bf86efbcd1a082ec1b032c182a
   - [LoRA](#lora)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -30,6 +26,29 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Contribute](#contribute)
 
 ## Paper-Code
+
+### Researcher 
+
+#### ***Faculty***
+
+| Name | School(Company) | Homepage | 
+|:-----:|:-----:|:-----:|
+| Ion Stoica | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~istoica/) |
+| Joseph E. Gonzalez | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~jegonzal/) |
+| Matei Zaharia | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~matei/) |
+| Zhihao Jia| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.cs.cmu.edu/~zhihaoj2/) |
+| TianQi Chen| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://tqchen.com/) |
+| Xingda Wei| SJTU | [![Website](https://img.shields.io/badge/Website-9cf)](https://ipads.se.sjtu.edu.cn/pub/members/xingda_wei) |
+| Xin Jin | PKU | [![Website](https://img.shields.io/badge/Website-9cf)](https://xinjin.github.io/) |
+| Harry Xu | UCLA | [![Website](https://img.shields.io/badge/Website-9cf)](https://web.cs.ucla.edu/~harryxu/) |
+| Ravi Netravali| Princeton | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.cs.princeton.edu/~ravian/) |
+| Christos Kozyrakis | Stanford | [![Website](https://img.shields.io/badge/Website-9cf)](https://web.stanford.edu/~kozyraki/) |
+| Christopher Ré | Stanford | [![Website](https://img.shields.io/badge/Website-9cf)](https://cs.stanford.edu/people/chrismre/) |
+| Tri Dao| Princeton | [![Website](https://img.shields.io/badge/Website-9cf)](https://tridao.me/) |
+| Mosharaf Chowdhury| UMich | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.mosharaf.com/) |
+| Shivaram Venkataraman| Wisc | [![Website](https://img.shields.io/badge/Website-9cf)](https://shivaram.org/) |
+| Hao Zhang| UCSD | [![Website](https://img.shields.io/badge/Website-9cf)](https://cseweb.ucsd.edu/~haozhang/) |
+
 
 ### LLM Serving Framework
 
