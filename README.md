@@ -6,8 +6,13 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 - [Paper-Code](#paper-code)
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Evaluation Platform](#llm-evaluation-platform)
+<<<<<<< HEAD
   - [LLM Inference System Side](#llm-inference-system-side)
   - [LLM Inference AI Side](#llm-inference-ai-side)
+=======
+  - [LLM Inference System Side)](#llm-inference-system-side)
+  - [LLM Inference AI Side)](#llm-inference-ai-side)
+>>>>>>> 77d918ce7a53c7bf86efbcd1a082ec1b032c182a
   - [LoRA](#lora)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
