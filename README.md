@@ -31,7 +31,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 #### ***Faculty***
 
-| Name | School(Company) | Homepage | 
+| Name | University | Homepage | 
 |:-----:|:-----:|:-----:|
 | Ion Stoica | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~istoica/) |
 | Joseph E. Gonzalez | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~jegonzal/) |
