@@ -37,7 +37,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Joseph E. Gonzalez | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~jegonzal/) |
 | Matei Zaharia | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~matei/) |
 | Zhihao Jia| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.cs.cmu.edu/~zhihaoj2/) |
-| TianQi Chen| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://tqchen.com/) |
+| Tianqi Chen| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://tqchen.com/) |
 | Xingda Wei| SJTU | [![Website](https://img.shields.io/badge/Website-9cf)](https://ipads.se.sjtu.edu.cn/pub/members/xingda_wei) |
 | Xin Jin | PKU | [![Website](https://img.shields.io/badge/Website-9cf)](https://xinjin.github.io/) |
 | Harry Xu | UCLA | [![Website](https://img.shields.io/badge/Website-9cf)](https://web.cs.ucla.edu/~harryxu/) |
