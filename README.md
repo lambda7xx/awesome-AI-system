@@ -29,7 +29,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### Researcher 
 
-#### ***Faculty***
+
 
 | Name | University | Homepage | 
 |:-----:|:-----:|:-----:|
@@ -48,6 +48,13 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Mosharaf Chowdhury| UMich | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.mosharaf.com/) |
 | Shivaram Venkataraman| Wisc | [![Website](https://img.shields.io/badge/Website-9cf)](https://shivaram.org/) |
 | Hao Zhang| UCSD | [![Website](https://img.shields.io/badge/Website-9cf)](https://cseweb.ucsd.edu/~haozhang/) |
+| Ana Klimovic | ETH | [![Website](https://img.shields.io/badge/Website-9cf)](https://anakli.inf.ethz.ch/) |
+| Fan Lai | UIUC | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.fanlai.me/) |
+| Lianmin Zheng | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://lmzheng.net/) |
+| Ying Sheng  | Stanford | [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/yingsheng/) |
+| Zhuohan Li | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~zhuohan/) |
+| Woosuk Kwon| UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://woosuk.me/) |
+| Zihao Ye | University of Washington  | [![Website](https://img.shields.io/badge/Website-9cf)](https://homes.cs.washington.edu/~zhye/) |
 
 
 ### LLM Serving Framework
@@ -71,6 +78,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+| Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.07104) | [![Star](https://img.shields.io/github/stars/sgl-project/sglang.git)](https://github.com/sgl-project/sglang.git) | - | Jan, 2024 |
 | Efficient Memory Management for Large Language Model Serving with PagedAttention| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2309.06180.pdf) | [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg)](https://github.com/vllm-project/vllm.git) | - | SOSP'23 |
 | SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
 |Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
