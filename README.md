@@ -65,6 +65,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | TensorRT-LLM | [![Star](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM.svg)](https://github.com/NVIDIA/TensorRT-LLM.git) |
 | xFasterTransformer |  [![Star](https://img.shields.io/github/stars/intel/xFasterTransformer.svg)](https://github.com/intel/xFasterTransformer)|
 | CTranslate2(low latency) | [![Star](https://img.shields.io/github/stars/OpenNMT/CTranslate2.svg)](https://github.com/OpenNMT/CTranslate2.git)|
+| llama2.c| [![Star](https://img.shields.io/github/stars/karpathy/llama2.c.svg)](https://github.com/karpathy/llama2.c) |
 
 
 ### LLM Evaluation Platform
