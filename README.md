@@ -9,6 +9,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Evaluation Platform](#llm-evaluation-platform)
   - [LLM Inference System Side)](#llm-inference-system-side)
   - [LLM Inference AI Side)](#llm-inference-ai-side)
+  - [LLM MoE](#llm-moe)
   - [LoRA](#lora)
   - [Framework](#framework)
   - [Parallellism Training](#parallellism-training)
@@ -79,6 +80,9 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+
+| Parrot: Efficient Serving of LLM-based Application with Semantic Variables| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.07240) | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24SOSP-ParrotServe.git)](https://github.com/MachineLearningSystem/24SOSP-ParrotServe) | - | OSDI'24 |
+| CacheGen: Fast Context Loading for Language Model Applications via KV Cache Streaming| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.07240) | [![Star](https://img.shields.io/github/stars/UChi-JCL/CacheGen.git)](https://github.com/UChi-JCL/CacheGen) | - | SIGCOMM'24 |
 | Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.07104) | [![Star](https://img.shields.io/github/stars/sgl-project/sglang.git)](https://github.com/sgl-project/sglang.git) | - | Jan, 2024 |
 | Efficient Memory Management for Large Language Model Serving with PagedAttention| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2309.06180.pdf) | [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg)](https://github.com/vllm-project/vllm.git) | - | SOSP'23 |
 | SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
@@ -90,6 +94,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 ### LLM Inference(AI Side)
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+| MuxServe: Flexible Spatial-Temporal Multiplexing for LLM Serving| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2404.02015) | [![Star](https://img.shields.io/github/stars/EfficientLLMSys/MuxServe.git)](https://github.com/EfficientLLMSys/MuxServe) | - | ICML'24 |
 | BitDelta: Your Fine-Tune May Only Be Worth One Bit| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10193) | [![Star](https://img.shields.io/github/stars/FasterDecoding/BitDelta.svg)](https://github.com/FasterDecoding/BitDelta.git) | - | Feb,2024 |
 | Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.10774) | [![Star](https://img.shields.io/github/stars/FasterDecoding/Medusa.svg)](https://github.com/FasterDecoding/Medusa.git) | - | Jan,2024 |
 | LLMCompiler: An LLM Compiler for Parallel Function Calling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.04511.pdf) | [![Star](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler.svg)](https://github.com/SqueezeAILab/LLMCompiler.git) | - | Dec,2023 |
@@ -98,6 +103,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Break the Sequential Dependency of LLM Inference Using Lookahead Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.02057) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/LookaheadDecoding.svg)](https://github.com/hao-ai-lab/LookaheadDecoding.git) | - | Feb,2024 |
 | EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
 
+### LLM MoE
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2308.12066) | [![Star](https://img.shields.io/github/stars/ranggihwang/Pregated_MoE.git)](https://github.com/ranggihwang/Pregated_MoE.git) | - | ISCA'24 |
+| SIDA-MOE: SPARSITY-INSPIRED DATA-AWARE SERVING FOR EFFICIENT AND SCALABLE LARGE MIXTURE-OF-EXPERTS MODELS| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18859) | [![Star](https://img.shields.io/github/stars/timlee0212/SiDA-MoE.git)](https://github.com/timlee0212/SiDA-MoE) | - | MLSYS'24 |
+| ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/10.1145/3627703.3650083) | [![Star](https://img.shields.io/github/stars/Fragile-azalea/ScheMoE.git)](https://github.com/Fragile-azalea/ScheMoE.git) | - | Eurosys'24 |
 
 
 ### LoRA
