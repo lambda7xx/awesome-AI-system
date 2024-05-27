@@ -80,7 +80,6 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-
 | Parrot: Efficient Serving of LLM-based Application with Semantic Variables| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.07240) | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24SOSP-ParrotServe.git)](https://github.com/MachineLearningSystem/24SOSP-ParrotServe) | - | OSDI'24 |
 | CacheGen: Fast Context Loading for Language Model Applications via KV Cache Streaming| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.07240) | [![Star](https://img.shields.io/github/stars/UChi-JCL/CacheGen.git)](https://github.com/UChi-JCL/CacheGen) | - | SIGCOMM'24 |
 | Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.07104) | [![Star](https://img.shields.io/github/stars/sgl-project/sglang.git)](https://github.com/sgl-project/sglang.git) | - | Jan, 2024 |
