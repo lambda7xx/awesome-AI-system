@@ -8,6 +8,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Serving Framework](#llm-serving-framework)
   - [LLM Evaluation Platform](#llm-evaluation-platform)
   - [LLM Inference System Side)](#llm-inference-system-side)
+  - [RLHF](#rlhf)
   - [LLM Inference AI Side)](#llm-inference-ai-side)
   - [LLM MoE](#llm-moe)
   - [LoRA](#lora)
@@ -80,6 +81,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+| Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.01566) | [![Star](https://img.shields.io/github/stars/Thesys-lab/Helix-ASPLOS25.git)](https://github.com/Thesys-lab/Helix-ASPLOS25.git) | - | ASPLOS'25 |
 |NanoFlow: Towards Optimal Large Language Model Serving Throughput | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.12757) | [![Star](https://img.shields.io/github/stars/efeslab/Nanoflow.git)](https://github.com/efeslab/Nanoflow.git) | - | Arxiv'24 |
 |LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.09526) | [![Star](https://img.shields.io/github/stars/LoongServe/LoongServe.git)](https://github.com/LoongServe/LoongServe) | - | SOSP'24 |
 |Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.09054) | [![Star](https://img.shields.io/github/stars/d-matrix-ai/keyformer-llm.git)](https://github.com/d-matrix-ai/keyformer-llm) | - | MLSYS'24 |
@@ -95,9 +97,13 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Efficient Memory Management for Large Language Model Serving with PagedAttention| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2309.06180.pdf) | [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg)](https://github.com/vllm-project/vllm.git) | - | SOSP'23 |
 | SpecInfer: Accelerating Generative Large Language Model Serving with Speculative Inference and Token Tree Verification| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.09781.pdf) | [![Star](https://img.shields.io/github/stars/flexflow/FlexFlow.svg)](https://github.com/flexflow/FlexFlow) | - | Dec,2023 |
 |Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference| - | [![Star](https://img.shields.io/github/stars/MachineLearningSystem/24PPOPP-Liger.svg)](https://github.com/MachineLearningSystem/24PPOPP-Liger) |-| PPOPP'24
-|Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Dec, 2023 | 
+|Efficiently Programming Large Language Models using SGLang| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.07104.pdf)| [![Star](https://img.shields.io/github/stars/sgl-project/sglang.svg)](https://github.com/sgl-project/sglang.git) | - | Nurips'24 | 
 | Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.vldb.org/pvldb/vol17/p211-xia.pdf) | [![Star](https://img.shields.io/github/stars/AlibabaResearch/flash-llm.svg)](https://github.com/AlibabaResearch/flash-llm) | - | VLDB'24 |
-| PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | Dec, 2023 |
+| PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | SOSP'24 |
+
+### RLHF
+| HybridFlow: A Flexible and Efficient RLHF Framework | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19256v2) | [![Star](https://img.shields.io/github/stars/volcengine/verl.svg)](https://github.com/volcengine/verl.git) | - | Eurosys'25 |
+
 
 ### LLM Inference(AI Side)
 | Title | arXiv | Github| WebSite | Pub. & Date
