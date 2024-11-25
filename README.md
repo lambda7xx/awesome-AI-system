@@ -102,6 +102,8 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | SOSP'24 |
 
 ### RLHF
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
 | HybridFlow: A Flexible and Efficient RLHF Framework | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19256v2) | [![Star](https://img.shields.io/github/stars/volcengine/verl.svg)](https://github.com/volcengine/verl.git) | - | Eurosys'25 |
 | ReaLHF: Optimized RLHF Training for Large Language Models through Parameter Reallocation | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14088) | [![Star](https://img.shields.io/github/stars/openpsi-project/ReaLHF.svg)](https://github.com/openpsi-project/ReaLHF.git)| - | June. 2024 |
 | OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.11143) | [![Star](https://img.shields.io/github/stars/OpenRLHF/OpenRLHF.svg)](https://github.com/OpenRLHF/OpenRLHF)| - | May. 2024 |
