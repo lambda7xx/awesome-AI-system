@@ -40,9 +40,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Matei Zaharia | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~matei/) |
 | Zhihao Jia| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.cs.cmu.edu/~zhihaoj2/) |
 | Tianqi Chen| CMU | [![Website](https://img.shields.io/badge/Website-9cf)](https://tqchen.com/) |
+| Stephanie Wang | UW | [![Website](https://img.shields.io/badge/Website-9cf)](https://stephanie-wang.github.io/) |
 | Xingda Wei| SJTU | [![Website](https://img.shields.io/badge/Website-9cf)](https://ipads.se.sjtu.edu.cn/pub/members/xingda_wei) |
+| Zeyu Min| SJTU | [![Website](https://img.shields.io/badge/Website-9cf)](https://ipads.se.sjtu.edu.cn/pub/members/zeyu_mi) |
 | Xin Jin | PKU | [![Website](https://img.shields.io/badge/Website-9cf)](https://xinjin.github.io/) |
 | Harry Xu | UCLA | [![Website](https://img.shields.io/badge/Website-9cf)](https://web.cs.ucla.edu/~harryxu/) |
+| Anand Iyer | Georgia Tech | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.anand-iyer.com/) |
 | Ravi Netravali| Princeton | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.cs.princeton.edu/~ravian/) |
 | Christos Kozyrakis | Stanford | [![Website](https://img.shields.io/badge/Website-9cf)](https://web.stanford.edu/~kozyraki/) |
 | Christopher Ré | Stanford | [![Website](https://img.shields.io/badge/Website-9cf)](https://cs.stanford.edu/people/chrismre/) |
@@ -50,6 +53,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Mosharaf Chowdhury| UMich | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.mosharaf.com/) |
 | Shivaram Venkataraman| Wisc | [![Website](https://img.shields.io/badge/Website-9cf)](https://shivaram.org/) |
 | Hao Zhang| UCSD | [![Website](https://img.shields.io/badge/Website-9cf)](https://cseweb.ucsd.edu/~haozhang/) |
+| Yiying Zhang| UCSD | [![Website](https://img.shields.io/badge/Website-9cf)](https://cseweb.ucsd.edu/~yiying/) |
 | Ana Klimovic | ETH | [![Website](https://img.shields.io/badge/Website-9cf)](https://anakli.inf.ethz.ch/) |
 | Fan Lai | UIUC | [![Website](https://img.shields.io/badge/Website-9cf)](https://www.fanlai.me/) |
 | Lianmin Zheng | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://lmzheng.net/) |
