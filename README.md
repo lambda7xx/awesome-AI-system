@@ -61,6 +61,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | Zhuohan Li | UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://people.eecs.berkeley.edu/~zhuohan/) |
 | Woosuk Kwon| UC Berkeley | [![Website](https://img.shields.io/badge/Website-9cf)](https://woosuk.me/) |
 | Zihao Ye | University of Washington  | [![Website](https://img.shields.io/badge/Website-9cf)](https://homes.cs.washington.edu/~zhye/) |
+| Amey Agrawal | Georgia Tech | [![Website](https://img.shields.io/badge/Website-9cf)](https://ameya.info/) |
 
 
 ### LLM Serving Framework
