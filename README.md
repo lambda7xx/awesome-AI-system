@@ -145,6 +145,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | arXiv | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
+| dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) | [![Star](https://img.shields.io/github/stars/LLMServe/dLoRA-artifact.svg)](https://github.com/LLMServe/dLoRA-artifact.git) | - | OSDI'24 |
 | S-LoRA: Serving Thousands of Concurrent LoRA Adapters| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.03285.pdf) | [![Star](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg)](https://github.com/S-LoRA/S-LoRA.git) | - | Nov,2023 |
 | Punica: Serving multiple LoRA finetuned LLM as one| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18547.pdf) | [![Star](https://img.shields.io/github/stars/punica-ai/punica.svg)](https://github.com/punica-ai/punica.git) | - | Oct,2023 |
 
