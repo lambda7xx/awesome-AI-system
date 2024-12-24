@@ -9,6 +9,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
   - [LLM Evaluation Platform](#llm-evaluation-platform)
   - [LLM Inference System Side)](#llm-inference-system-side)
   - [RLHF](#rlhf)
+  - [DIT](#dit)
   - [LLM Inference AI Side)](#llm-inference-ai-side)
   - [LLM MoE](#llm-moe)
   - [LoRA](#lora)
@@ -115,6 +116,12 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | HybridFlow: A Flexible and Efficient RLHF Framework | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19256v2) | [![Star](https://img.shields.io/github/stars/volcengine/verl.svg)](https://github.com/volcengine/verl.git) | - | Eurosys'25 |
 | ReaLHF: Optimized RLHF Training for Large Language Models through Parameter Reallocation | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14088) | [![Star](https://img.shields.io/github/stars/openpsi-project/ReaLHF.svg)](https://github.com/openpsi-project/ReaLHF.git)| - | June. 2024 |
 | OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.11143) | [![Star](https://img.shields.io/github/stars/OpenRLHF/OpenRLHF.svg)](https://github.com/OpenRLHF/OpenRLHF)| - | May. 2024 |
+
+### DIT
+| Title | arXiv | Github| WebSite | Pub. & Date
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| xDiT: an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.01738) | [![Star](https://img.shields.io/github/stars/xdit-project/xDiT.svg)](https://github.com/xdit-project/xDiT.git) | - | Nov. 2024 |
+| FastVideo | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.01738) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/FastVideo.svg)](https://github.com/hao-ai-lab/FastVideo.git) | - | Dec. 2024 |
 
 
 
