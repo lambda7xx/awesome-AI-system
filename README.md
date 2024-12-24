@@ -85,7 +85,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### LLM Inference (System Side)
 
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.01566) | [![Star](https://img.shields.io/github/stars/Thesys-lab/Helix-ASPLOS25.svg)](https://github.com/Thesys-lab/Helix-ASPLOS25.git) | - | ASPLOS'25 |
 |NanoFlow: Towards Optimal Large Language Model Serving Throughput | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.12757) | [![Star](https://img.shields.io/github/stars/efeslab/Nanoflow.svg)](https://github.com/efeslab/Nanoflow.git) | - | Arxiv'24 |
@@ -111,14 +111,14 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### RLHF
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | HybridFlow: A Flexible and Efficient RLHF Framework | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.19256v2) | [![Star](https://img.shields.io/github/stars/volcengine/verl.svg)](https://github.com/volcengine/verl.git) | - | Eurosys'25 |
 | ReaLHF: Optimized RLHF Training for Large Language Models through Parameter Reallocation | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.14088) | [![Star](https://img.shields.io/github/stars/openpsi-project/ReaLHF.svg)](https://github.com/openpsi-project/ReaLHF.git)| - | June. 2024 |
 | OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.11143) | [![Star](https://img.shields.io/github/stars/OpenRLHF/OpenRLHF.svg)](https://github.com/OpenRLHF/OpenRLHF)| - | May. 2024 |
 
 ### DIT
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | xDiT: an Inference Engine for Diffusion Transformers (DiTs) with Massive Parallelism | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.01738) | [![Star](https://img.shields.io/github/stars/xdit-project/xDiT.svg)](https://github.com/xdit-project/xDiT.git) | - | Nov. 2024 |
 | FastVideo | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.01738) | [![Star](https://img.shields.io/github/stars/hao-ai-lab/FastVideo.svg)](https://github.com/hao-ai-lab/FastVideo.git) | - | Dec. 2024 |
@@ -127,7 +127,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 
 ### LLM Inference(AI Side)
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | InferCept: Efficient Intercept Support for Augmented Large Language Model Inference | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.01869) | [![Star](https://img.shields.io/github/stars/WukLab/InferCept.svg)](https://github.com/WukLab/InferCept) | - | ICML'24 |
 | Online Speculative Decoding| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.07177) | [![Star](https://img.shields.io/github/stars/LiuXiaoxuanPKU/OSD.svg)](https://github.com/LiuXiaoxuanPKU/OSD) | - | ICML'24 |
@@ -141,7 +141,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 | EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2401.15077.pdf) | [![Star](https://img.shields.io/github/stars/SafeAILab/EAGLE.svg)](https://github.com/SafeAILab/EAGLE.git) | - | Jan,2024 |
 
 ### LLM MoE
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2308.12066) | [![Star](https://img.shields.io/github/stars/ranggihwang/Pregated_MoE.svg)](https://github.com/ranggihwang/Pregated_MoE.git) | - | ISCA'24 |
 | SIDA-MOE: SPARSITY-INSPIRED DATA-AWARE SERVING FOR EFFICIENT AND SCALABLE LARGE MIXTURE-OF-EXPERTS MODELS| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2310.18859) | [![Star](https://img.shields.io/github/stars/timlee0212/SiDA-MoE.svg)](https://github.com/timlee0212/SiDA-MoE) | - | MLSYS'24 |
@@ -150,7 +150,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 ### LoRA
 
-| Title | arXiv | Github| WebSite | Pub. & Date
+| Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) | [![Star](https://img.shields.io/github/stars/LLMServe/dLoRA-artifact.svg)](https://github.com/LLMServe/dLoRA-artifact.git) | - | OSDI'24 |
 | S-LoRA: Serving Thousands of Concurrent LoRA Adapters| [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.03285.pdf) | [![Star](https://img.shields.io/github/stars/S-LoRA/S-LoRA.svg)](https://github.com/S-LoRA/S-LoRA.git) | - | Nov,2023 |
