@@ -87,7 +87,7 @@ This repo is motivated by [awesome tensor compilers](https://github.com/merrymer
 
 | Title | Paper | Github| WebSite | Pub. & Date
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-| Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.01566) | [![Star](https://img.shields.io/github/stars/Thesys-lab/Helix-ASPLOS25.svg)](https://github.com/Thesys-lab/Helix-ASPLOS25.git) | - | ASPLOS'25 |
+|GLINTHAWK: A Two-Tiered Architecture for High-Throughput LLM Inference  | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.11779) | [![Star](https://img.shields.io/github/stars/microsoft/glinthawk.svg)](https://github.com/microsoft/glinthawk) | - | Arxiv'25,Jan |
 | Queue Management for SLO-Oriented Large Language Model Serving | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://haoran-qiu.com/pdf/socc24-qlm.pdf) | [![Star](https://img.shields.io/github/stars/QLM-project/QLM.svg)](https://github.com/QLM-project/QLM.git) | - | SOCC'24 |
 |NanoFlow: Towards Optimal Large Language Model Serving Throughput | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.12757) | [![Star](https://img.shields.io/github/stars/efeslab/Nanoflow.svg)](https://github.com/efeslab/Nanoflow.git) | - | Arxiv'24 |
 | PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) | [![Star](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer.svg)](https://github.com/SJTU-IPADS/PowerInfer) | - | SOSP'24 |
